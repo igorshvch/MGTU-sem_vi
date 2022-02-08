@@ -10,12 +10,12 @@
 
 ## Всякие полезные ссылки для корректного оформления md, коммитов и прочего
 
-- [semantic versioning][4]
-- [improve your commit naming][1]
-- [md syntax][2]
-- [.gitigonre syntax][3]
+- [semantic versioning][1]
+- [improve your commit naming][2]
+- [md syntax][3]
+- [.gitigonre syntax][4]
 
-[1]:https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716
-[2]:https://www.markdownguide.org/basic-syntax/
-[3]:https://git-scm.com/docs/gitignore
-[4]:https://semver.org/#summary
+[1]:https://semver.org/#summary
+[2]:https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716
+[3]:https://www.markdownguide.org/basic-syntax/
+[4]:https://git-scm.com/docs/gitignore
