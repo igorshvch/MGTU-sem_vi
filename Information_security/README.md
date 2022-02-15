@@ -19,7 +19,9 @@
 Внимание: *ссылки работают до 31.07.2022*
 
 - [Текст лекций][1]
-- [Аудио первой лекции][2]
+- [Аудио лекций][2]
+- [Фото доски][3]
 
-[1]: https://1drv.ms/w/s!AnleQw_T68WwjedSqvbvxfdN38G-mg?e=rOpi4K
+[1]: https://1drv.ms/w/s!AnleQw_T68WwjedSqvbvxfdN38G-mg?e=VcMjwj
 [2]: https://1drv.ms/u/s!AnleQw_T68WwjedOnBxEx0O2ITxqxw?e=bPm7AR
+[3]: https://1drv.ms/u/s!AnleQw_T68WwjegymTMGij5m_7DX_g?e=0QtZ6r
