@@ -50,16 +50,6 @@ def extended_gcd(a, b):
         (old_t, t) = (t, (old_t - quotient * t))
     return old_r, old_s, old_t #GCD, x, y
 
-def modular_linear_equation_solver(a, b, n):
-    d, xt, yt = extended_gcd(a, n)
-    if d|b:
-        x = [0 for i in range(d)]
-        x[0] = xt*(b/d)%n
-        for i in range(d):
-            x[i] = (x[0]+i*(n/d))%n
-        return x
-    return 0
-
 def modulo(bits_num=1024):
     '''
     Calculeate "modulo" of two random prime numbers
