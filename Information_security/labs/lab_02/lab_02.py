@@ -144,7 +144,7 @@ def encode(string, e, n):
 @aux.eval_time
 def decode(encoded_list, d, n):
     decoded = ""
-    for i, word in enumerate(encoded_list):
+    for word in encoded_list:
         num = pow(word, d, n)
         bits = bin(num)[2:]
         decoded = decoded + (frombits(("0"*(16-len(bits)%16))+bits) + " ")
