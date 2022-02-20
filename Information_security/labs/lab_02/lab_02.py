@@ -68,7 +68,7 @@ def modulo(bits_num=1024):
     while True:
         if not flags['p_found']:
             p = random.getrandbits(bits_num)
-            if aux.Miller_Rabin_test(p, test_num):
+            if p&1 and aux.Miller_Rabin_test(p, test_num):
                 flags['p_found'] = True
                 count1+=1
                 continue
@@ -77,7 +77,7 @@ def modulo(bits_num=1024):
                 continue
         if not flags['q_found']:
             q = random.getrandbits(bits_num)
-            if aux.Miller_Rabin_test(q, test_num):
+            if q&1 and aux.Miller_Rabin_test(q, test_num):
                 flags['q_found'] = True
                 count2+=1
                 continue
