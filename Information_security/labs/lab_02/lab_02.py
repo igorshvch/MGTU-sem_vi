@@ -25,6 +25,7 @@ def frombits(bits):
         chars.append(chr(int(''.join((str(bit) for bit in byte)), 2)))
     return ''.join(chars)
 
+@aux.eval_time
 def gcd(a, b):
     '''
     Equivalent to math.gcd
@@ -33,6 +34,7 @@ def gcd(a, b):
         a, b = b, a%b
     return a
 
+@aux.eval_time
 def extended_gcd(a, b):
     '''
     Calculate GCD and Bézout's coefficients
@@ -50,6 +52,7 @@ def extended_gcd(a, b):
         (old_t, t) = (t, (old_t - quotient * t))
     return old_r, old_s, old_t #GCD, x, y
 
+@aux.eval_time
 def modulo(bits_num=1024):
     '''
     Calculeate "modulo" of two random prime numbers
@@ -62,16 +65,23 @@ def modulo(bits_num=1024):
     }
     count1 = 0
     count2 = 0
-    count3 = 0
     while True:
         if not flags['p_found']:
             p = random.getrandbits(bits_num)
-            if not aux.Miller_Rabin_test(p, test_num):
+            if aux.Miller_Rabin_test(p, test_num):
+                flags['p_found'] = True
+                count1+=1
+                continue
+            else:
                 count1+=1
                 continue
         if not flags['q_found']:
             q = random.getrandbits(bits_num)
-            if not aux.Miller_Rabin_test(q, test_num):
+            if aux.Miller_Rabin_test(q, test_num):
+                flags['q_found'] = True
+                count2+=1
+                continue
+            else:
                 count2+=1
                 continue
         if p == q:
@@ -79,12 +89,12 @@ def modulo(bits_num=1024):
                 'p_found': False,
                 'q_found': False
             }
-            count3+=1
             continue
         break
-    print(f"{modulo.__name__}: function has run {count1}, {count2}, {count3} times")
+    print(f" /// {modulo.__name__}: p was found on {count1} run, q - on {count2} run")
     return p*q, p, q
 
+@aux.eval_time
 def calc_phi(p, q):
     '''
     Calculate Euler's totient function
@@ -92,13 +102,15 @@ def calc_phi(p, q):
     '''
     return (p-1)*(q-1)
 
+@aux.eval_time
 def choose_open_exp(phi):
     es = [65537, 257, 17, 5] #prime Fermat numbers exept 3
     for e in es:
         if (gcd(phi, e) == 1):
             return e
-    raise "Open exponent is not coprime to phi!"
+    raise BaseException("Open exponent is not coprime to phi!")
 
+@aux.eval_time
 def calc_secret_expo(e, phi):
     '''
     https://stackoverflow.com/questions/16044553/solving-a-modular-equation-python
@@ -119,6 +131,7 @@ def generate_keys(bits_num=1024):
     print(f"Модуль n:\n{n}")
     return n, e, d
 
+@aux.eval_time
 def encode(string, e, n):
     split_str = string.split()
     encoded = []
@@ -128,6 +141,7 @@ def encode(string, e, n):
         encoded.append(pow(num, e, n))
     return encoded
 
+@aux.eval_time
 def decode(encoded_list, d, n):
     decoded = ""
     for i, word in enumerate(encoded_list):
@@ -142,23 +156,27 @@ if __name__ == "__main__":
         2: 128,
         3: 256,
         4: 512,
-        5: 1024
+        5: 1024,
+        6: 2048,
     }
     while True:
         bits_num = int(
             input(
-                "\nВыберите количество бит [1({})/2({})/3({})/4({})/5({})] >>> ".format(
-                    options[1], options[2], options[3], options[4], options[5]
+                "\nВыберите количество бит [1({})/2({})/3({})/4({})/5({})/6({})] >>> ".format(
+                    options[1], options[2], options[3], options[4], options[5], options[6] 
                 )
             )
         )
+        if bits_num > 4:
+            print("\n\t ==== Внимание! Генерация ключа может занять несколько десятков секунд! ====\n")
         n, e, d = generate_keys(options[bits_num])
         while True:
             string = input("\nВведите строку: >>>\n")
+            print()
             encoded = encode(string, e, n)
-            print(f"\n===> Это массив закодированных слов:\n\t{encoded}")
+            print(f"\n===> Это массив закодированных слов:\n\t{encoded}\n")
             decoded = decode(encoded, d, n)
-            print(f"===? Это дешифрованная строка:\n\t{decoded}")
+            print(f"\n===? Это дешифрованная строка:\n\t{decoded}\n")
             breaker = int(input("\nПродолжить шифрование или изменить разрядность (выйти) [1(Продолжить)/2(Сменить разрядность|выйти)]? >>> "))
             if breaker == 1:
                 continue

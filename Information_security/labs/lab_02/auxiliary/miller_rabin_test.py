@@ -1,7 +1,5 @@
 import random
 
-#random.seed(1024)
-
 '''
 Module is based on CLRS, 3ed editon, sec. 31.8 article
 See more compact implementation:
