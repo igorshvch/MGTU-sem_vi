@@ -31,7 +31,7 @@ def witness(a, n, t, u):
     return False
 
 if __name__ == "__main__":
-    print("auxiliary.py module test run")
+    print("miller_rabin_test.py module test run")
     s = 8
     count = 1000
     while count:      
