@@ -2,10 +2,9 @@ import random
 
 import auxiliary as aux
 
-#random.seed(1024)
-
 def tobits(s):
     '''
+    Conver text string to list of bits
     https://stackoverflow.com/questions/10237926/convert-string-to-list-of-bits-and-viceversa/10238140
     '''
     result = []
@@ -17,6 +16,7 @@ def tobits(s):
 
 def frombits(bits):
     '''
+    Convert string of bits to text
     https://stackoverflow.com/questions/10237926/convert-string-to-list-of-bits-and-viceversa/10238140
     '''
     chars = []
@@ -147,7 +147,7 @@ def decode(encoded_list, d, n):
     for word in encoded_list:
         num = pow(word, d, n)
         bits = bin(num)[2:]
-        decoded = decoded + (frombits(("0"*(16-len(bits)%16))+bits) + " ")
+        decoded = decoded + (frombits(("0"*(16-len(bits)%16))+bits) + " ") #align bits string to 16 bits per char format
     return decoded
 
 if __name__ == "__main__":
