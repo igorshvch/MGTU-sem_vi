@@ -78,18 +78,16 @@ int __cdecl main(void)
     
     freeaddrinfo(result);
 
-    iResult = listen(ListenSocket, SOMAXCONN);
-    if (iResult == SOCKET_ERROR) {
-        printf("listen failed with error: %d\n", WSAGetLastError());
-        closesocket(ListenSocket);
-        WSACleanup();
-        return 1;
-    }
-
-    
     printf("\nTCP SERVER: Listening to a socket at adress 127.0.0.1:27015...\n\n");
     while (1)
     {
+        iResult = listen(ListenSocket, SOMAXCONN);
+        if (iResult == SOCKET_ERROR) {
+            printf("listen failed with error: %d\n", WSAGetLastError());
+            closesocket(ListenSocket);
+            WSACleanup();
+            return 1;
+        }
         // Accept a client socket
         ClientSocket = accept(ListenSocket, NULL, NULL);
         if (ClientSocket == INVALID_SOCKET) {
