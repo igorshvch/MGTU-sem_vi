@@ -87,61 +87,70 @@ int __cdecl main(void)
     }
 
     
-    printf("\nListening to a socket at adress 127.0.0.1:27015...\n\n");
-    // print_log("C:/Users/igors/My_Code/sem_vi/networks/lab_02/TCP/log.log", "test");
-    // Accept a client socket
-    ClientSocket = accept(ListenSocket, NULL, NULL);
-    if (ClientSocket == INVALID_SOCKET) {
-        printf("accept failed with error: %d\n", WSAGetLastError());
-        closesocket(ListenSocket);
-        WSACleanup();
-        return 1;
-    }
-
-    printf(">>> Connection accepted!\n");
-    
-    int i;
-    ZeroMemory(recvbuf, recvbuflen);
-    ZeroMemory(sendbuf, sendbuflen);
-
-    server_menu_main(sendbuf);
-
-    //sending data
-    iSendResult = send( ClientSocket, sendbuf, (int)strlen(sendbuf), 0 );
-    if (iSendResult == SOCKET_ERROR) {
-        printf("send failed with error: %d\n", WSAGetLastError());
-        closesocket(ClientSocket);
-        WSACleanup();
-        return 1;
-    }
-    printf("\nBytes sent: %d\n", iSendResult);
-
-    //reciving data
-    iResult = recv(ClientSocket, recvbuf, recvbuflen, 0);
-        if (iResult > 0) {
-            printf("Bytes received: %d\n", iResult);
+    printf("\nTCP SERVER: Listening to a socket at adress 127.0.0.1:27015...\n\n");
+    while (1)
+    {
+        // Accept a client socket
+        ClientSocket = accept(ListenSocket, NULL, NULL);
+        if (ClientSocket == INVALID_SOCKET) {
+            printf("accept failed with error: %d\n", WSAGetLastError());
+            closesocket(ListenSocket);
+            WSACleanup();
+            return 1;
         }
-    printf("Client wants to recive %s file\n", recvbuf);
-    strcpy(file_name, recvbuf);
 
-    //ZeroMemory(recvbuf, recvbuflen);
-    //ZeroMemory(sendbuf, sendbuflen);
+        printf(">>> Connection accepted!\n");
+        
+        int i;
+        ZeroMemory(recvbuf, recvbuflen);
+        ZeroMemory(sendbuf, sendbuflen);
 
-    readfile(sendbuf, file_name);
-    printf("==>FILE CONTENT:\n===>%s\n", sendbuf);
+        server_menu_main(sendbuf);
+
+        //sending data
+        iSendResult = send( ClientSocket, sendbuf, (int)strlen(sendbuf), 0 );
+        if (iSendResult == SOCKET_ERROR) {
+            printf("send failed with error: %d\n", WSAGetLastError());
+            closesocket(ClientSocket);
+            WSACleanup();
+            return 1;
+        }
+        printf("\nBytes sent: %d\n", iSendResult);
+
+        //reciving data
+        iResult = recv(ClientSocket, recvbuf, recvbuflen, 0);
+            if (iResult > 0) {
+                printf("Bytes received: %d\n", iResult);
+            }
+        printf("Client wants to recive %s file\n", recvbuf);
+        strcpy(file_name, recvbuf);
+
+        //ZeroMemory(recvbuf, recvbuflen);
+        //ZeroMemory(sendbuf, sendbuflen);
+
+        readfile(sendbuf, file_name);
+        printf("==>FILE CONTENT:\n===>%s\n", sendbuf);
 
 
-    //sending file
-    iSendResult = send( ClientSocket, sendbuf, (int)strlen(sendbuf), 0 );
-    if (iSendResult == SOCKET_ERROR) {
-        printf("send failed with error: %d\n", WSAGetLastError());
-        closesocket(ClientSocket);
-        WSACleanup();
-        return 1;
+        //sending file
+        iSendResult = send( ClientSocket, sendbuf, (int)strlen(sendbuf), 0 );
+        if (iSendResult == SOCKET_ERROR) {
+            printf("send failed with error: %d\n", WSAGetLastError());
+            closesocket(ClientSocket);
+            WSACleanup();
+            return 1;
+        }
+        printf("Bytes sent: %d\n", iSendResult);
+
+        print_log("log.txt", file_name);
+
+        printf("\n\nTerminate TCP SERVER?[Yes-1]\n");
+        char c;
+        if (c=getch() == '1')
+            break;
+        else
+            printf("\nContinue listening...\n");
     }
-    printf("Bytes sent: %d\n", iSendResult);
-
-    print_log("log.txt", file_name);
 
     // shutdown the connection since we're done
     iResult = shutdown(ClientSocket, SD_SEND);
@@ -157,5 +166,6 @@ int __cdecl main(void)
     closesocket(ClientSocket);
     WSACleanup();
 
+    printf("\nTCP SERVER successfully terminated\n");
     return 0;
 }

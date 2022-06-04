@@ -84,7 +84,7 @@ int main()
     }
 
     
-    printf("\nConnected to the server at 127.0.0.1:%s\n\n", DEFAULT_PORT);
+    printf("\nTCP CLIENT: Connected to the server at 127.0.0.1:%s\n\n", DEFAULT_PORT);
 
     ZeroMemory(recvbuf, recvbuflen);
     ZeroMemory(sendbuf, sendbuflen);
