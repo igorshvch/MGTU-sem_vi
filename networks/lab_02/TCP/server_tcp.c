@@ -141,7 +141,7 @@ int __cdecl main(void)
     }
     printf("Bytes sent: %d\n", iSendResult);
 
-    print_log("log.log", file_name);
+    print_log("log.txt", file_name);
 
     // shutdown the connection since we're done
     iResult = shutdown(ClientSocket, SD_SEND);

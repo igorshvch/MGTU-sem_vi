@@ -1,6 +1,0 @@
-{
-    "files.associations": {
-        "winsock2.h": "c",
-        "printlog.h": "c"
-    }
-}
