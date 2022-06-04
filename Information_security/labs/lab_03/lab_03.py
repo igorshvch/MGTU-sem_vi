@@ -74,9 +74,9 @@ def decode(src, keys):
 def start_func():
     print("--Стеганография--")
     while True:
-        print("1: Кодировать")
-        print("2: Декодировать")
-        print("3: Выйти")
+        print("1. Кодировать")
+        print("2. Декодировать")
+        print("3. Выйти")
 
         func = input(">>> ")
 

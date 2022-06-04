@@ -15,14 +15,14 @@ def calculate_codes(node, val=''):
     '''
     Расчет кода для текущего узла
     '''
-    newVal = val + str(node.code)
+    new_val = val + str(node.code)
 
     if(node.left):
-        calculate_codes(node.left, newVal)
+        calculate_codes(node.left, new_val)
     if(node.right):
-        calculate_codes(node.right, newVal)
+        calculate_codes(node.right, new_val)
     if(not node.left and not node.right):
-        codes[node.symbol] = newVal
+        codes[node.symbol] = new_val
          
     return codes        
 
@@ -40,7 +40,7 @@ def calculate_probability(data):
 
 def output_encoded(data, coding):
     '''
-    Получаем закадированные данные
+    Получаем закодированные данные
     '''
     encoding_output = []
     for c in data:
@@ -67,6 +67,7 @@ def encode(data):
     symbols = symbol_with_probs.keys()
     probabilities = symbol_with_probs.values()
     sym_n_pbobs = sorted(zip(symbols, probabilities), key=lambda x: x[1], reverse=True)
+    
     print()
     print("Частота встречаеости символов")
     print("{:^10}|{:^15}".format("символ", "частота"))
@@ -104,7 +105,7 @@ def encode(data):
     print("-"*26)
 
     total_gain(data, huffman_encoding)
-    encoded_output = output_encoded(data,huffman_encoding)
+    encoded_output = output_encoded(data, huffman_encoding)
     return encoded_output, nodes[0]  
     
  
@@ -128,6 +129,7 @@ def decode(encoded_data, huffman_tree):
 
 if __name__ == "__main__":
     while True:
+        print("--Код Хаффмана--")
         print("1. Ввести сообщение")
         print("2. Попробовать демо-версию текста")
         print("3. Выход")
