@@ -61,7 +61,6 @@ int main()
 
 int request_parser(char *request_string, char *method, char *file)
 {
-    char *negative_responce = "HTTP/1.1 501 Not Implemented";
     char *local_method;
     char *local_file;
 

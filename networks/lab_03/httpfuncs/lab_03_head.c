@@ -8,7 +8,7 @@ int head_redirect(char *buff, unsigned long *len_ptrs)
     sprintf(content_length, "Conten-Length: %d\r\n", DEFAULT_HTTP_BUFF * sizeof(char));
     
     sprintf(buff, "%s%s%s%s%s%s",
-            "HTTP/1.1 301\r\n",
+            "HTTP/1.1 301 Moved Permanently\r\n",
             "Content-Type: text/html\r\n",
             content_length,
             "Location: /index.html\r\n",
@@ -32,7 +32,7 @@ int head_index(char *buff, char *file_address, unsigned long *len_ptr)
     sprintf(content_length, "Conten-Length: %d\r\n", strlen(html) * sizeof(char));
     
     sprintf(buff, "%s%s%s%s%s%s",
-            "HTTP/1.1 200\r\n",
+            "HTTP/1.1 200 OK\r\n",
             "Content-Type: text/html\r\n",
             content_length,
             "Location: /index.html\r\n",
@@ -59,7 +59,7 @@ int head_image(char *buff, char *file_address, unsigned long *len_ptr)
     sprintf(content_length, "Conten-Length: %d\r\n", len);
     
     sprintf(buff, "%s%s%s%s%s%s",
-            "HTTP/1.1 200\r\n",
+            "HTTP/1.1 200 OK\r\n",
             "Content-Type: image/jpeg\r\n",
             content_length,
             "Connection: keep-alive\r\n",
@@ -89,7 +89,7 @@ int head_ico(char *buff, char *file_address, unsigned long *len_ptr)
     sprintf(content_length, "Conten-Length: %d\r\n", len);
     
     sprintf(buff, "%s%s%s%s%s%s",
-            "HTTP/1.1 200\r\n",
+            "HTTP/1.1 200 OK\r\n",
             "Content-Type: image/x-icon\r\n",
             content_length,
             "Connection: keep-alive\r\n",

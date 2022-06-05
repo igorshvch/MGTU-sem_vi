@@ -89,21 +89,27 @@ int main()
 
     printf("Choose line number with requset type:\n");
     printf("1. GET to starter page\n");
-    printf("2. HEAD to starter page\n");
-    printf("3. HEAD to image\n");
-    printf("4. HEAD to page icon\n");
+    printf("2. GET to /index.html\n");
+    printf("3. HEAD to starter page\n");
+    printf("4. HEAD to image\n");
+    printf("5. HEAD to page icon\n");
     char c = getch();
     
     if (c == '1')
-        strcpy(sendbuf, "GET /index.html HTTP/1.1\r\n");
+        strcpy(sendbuf, "GET / HTTP/1.1\r\n");
     else if (c == '2')
-        strcpy(sendbuf, "HEAD /index.html HTTP/1.1\r\n");
+        strcpy(sendbuf, "GET /index.html HTTP/1.1\r\n");
     else if (c == '3')
-        strcpy(sendbuf, "HEAD /universe.jpg HTTP/1.1\r\n");
+        strcpy(sendbuf, "HEAD / HTTP/1.1\r\n");
     else if (c == '4')
+        strcpy(sendbuf, "HEAD /index.html HTTP/1.1\r\n");
+    else if (c == '5')
+        strcpy(sendbuf, "HEAD /universe.jpg HTTP/1.1\r\n");
+    else if (c == '6')
         strcpy(sendbuf, "HEAD /favicon.ico HTTP/1.1\r\n");
     else {
         printf(">>> Incorrect inputn!\n");
+        strcpy(sendbuf, "WRONG /WRONG HTTP/1.1\r\n");
     }
 
     //sending

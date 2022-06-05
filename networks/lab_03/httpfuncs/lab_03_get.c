@@ -8,8 +8,8 @@ int main()
     printf("second\n");
     char *buff2 = (char*)malloc(sizeof(char)*4194304);
     printf("third\n");
-    char *file_address1 = "C:/Users/igors/My_Code/sem_vi/networks/lab_03/static_files/index.html";
-    char *file_address2 = "C:/Users/igors/My_Code/sem_vi/networks/lab_03/static_files/universe.jpg";
+    char *file_address1 = " ";
+    char *file_address2 = " ";
     //get_index(buff1, file_address1);
     //printf("%s\n", buff1);
     unsigned long len_ptr;
@@ -30,7 +30,7 @@ int get_redirect(char *buff, unsigned long *len_ptrs)
     sprintf(content_length, "Conten-Length: %d\r\n", DEFAULT_HTTP_BUFF * sizeof(char));
     
     sprintf(buff, "%s%s%s%s%s%s",
-            "HTTP/1.1 301\r\n",
+            "HTTP/1.1 301 Moved Permanently\r\n",
             "Content-Type: text/html\r\n",
             content_length,
             "Location: /index.html\r\n",
@@ -52,7 +52,7 @@ int get_index(char *buff, char *file_address, unsigned long *len_ptr)
     sprintf(content_length, "Conten-Length: %d\r\n", strlen(html) * sizeof(char));
     
     sprintf(buff, "%s%s%s%s%s%s%s",
-            "HTTP/1.1 200\r\n",
+            "HTTP/1.1 200 OK\r\n",
             "Content-Type: text/html\r\n",
             content_length,
             "Location: /index.html\r\n",
@@ -84,7 +84,7 @@ int get_image(char *buff, char *file_address, unsigned long *len_ptr)
     sprintf(content_length, "Conten-Length: %d\r\n", len);
     
     sprintf(buff, "%s%s%s%s%s%s",
-            "HTTP/1.1 200\r\n",
+            "HTTP/1.1 200 OK\r\n",
             "Content-Type: image/jpeg\r\n",
             content_length,
             "Connection: keep-alive\r\n",
@@ -120,7 +120,7 @@ int get_ico(char *buff, char *file_address, unsigned long *len_ptr)
     sprintf(content_length, "Conten-Length: %d\r\n", len);
     
     sprintf(buff, "%s%s%s%s%s%s",
-            "HTTP/1.1 200\r\n",
+            "HTTP/1.1 200 OK\r\n",
             "Content-Type: image/x-icon\r\n",
             content_length,
             "Connection: keep-alive\r\n",
