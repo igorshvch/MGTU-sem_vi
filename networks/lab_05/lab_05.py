@@ -36,7 +36,7 @@ def send_message(from_user="testacc.igorshvch@yandex.ru",
         PASS = post_pass
     
     if msg_text:
-        TEXT_ADDRESS =  attach
+        TEXT_ADDRESS =  msg_text
     else:
         TEXT_ADDRESS =  "static/text.txt"
     
@@ -46,6 +46,9 @@ def send_message(from_user="testacc.igorshvch@yandex.ru",
     else:
         ATTACH_NAME = "universe.jpg"
         ATTACH_ADDRESS =  "static/" + ATTACH_NAME
+
+    print("\t", TEXT_ADDRESS)
+    print("\t", ATTACH_ADDRESS)
 
     SERVER = "smtp.yandex.ru"
     PORT = "465"
@@ -58,7 +61,7 @@ def send_message(from_user="testacc.igorshvch@yandex.ru",
     msg["Date"] = formatdate(localtime=True)
     msg["Subject"] = "Place of a man in the Universe"
 
-    with open(TEXT_ADDRESS, "r") as fl:
+    with open(TEXT_ADDRESS, "r", encoding='utf-8') as fl:
         text = fl.read()
 
     with open(ATTACH_ADDRESS, "rb") as bin_fl:
@@ -87,7 +90,7 @@ if __name__ == "__main__":
     send_from = input("Input From-email:\t")
     send_to = input("Input From-email:\t")
     password = input("Input email password:\t")
-    msg_text = input("Input email body (press 0 to use default)\t")
+    msg_text = input("Input email body path (press 0 to use default)\t")
     attach = input("Input attached picture address (press 0 to use default)\t")
     sleep_time = int(input("Input sleep time (press 0 to use default - 20 seconds):\t"))
     repetitions = int(input("Input number of repetitions (press 0 to use default - 3 times):\t"))
@@ -99,8 +102,8 @@ if __name__ == "__main__":
     if attach == '0':
         attach = None
 
-    send_message(from_user="testacc.igorshvch@yandex.ru",
-                 to_user="testacc.igorshvch@yandex.ru",
+    send_message(from_user=send_from,
+                 to_user=send_to,
                  post_pass=password,
                  msg_text=msg_text,
                  attach= attach,
