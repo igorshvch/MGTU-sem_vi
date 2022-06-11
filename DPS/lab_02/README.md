@@ -6,6 +6,6 @@
 
 |№|Исходное изображение|Фильтр openCV|Фильтр Оцу|Фильтр Брэдли|Гистограмма для Оцу|Threshold для openCV/Оцу|
 |-|-|-|-|-|-|-|
-|1|![1](..\static\bl2049_small.jpg)|![1](.\save\img_lib_bin_1654990391249844.jpg)|![1](.\save\img_custom_bin1_1654990391249844.jpg)|![1](.\save\img_custom_bin2_1654990391249844.jpg)|![1](.\save\HIST_custom_bin1_1654990391249844.png)|70/69|
-|2|![2](..\static\bs_small.jpg)|![2](.\save\img_lib_bin_1654990450997012.jpg)|![2](.\save\img_custom_bin1_1654990450997012.jpg)|![2](.\save\img_custom_bin2_1654990450997012.jpg)|![2](.\save\HIST_custom_bin1_1654990450997012.png)|121/122|
-|3|![3](..\static\bp.jpg)|![3](.\save\img_lib_bin_1654990515835508.jpg)|![3](.\save\img_custom_bin1_1654990515835508.jpg)|![3](.\save\img_custom_bin2_1654990515835508.jpg)|![3](.\save\HIST_custom_bin1_1654990515835508.png)|144/134|
+|1|![1](../static/bl2049_small.jpg)|![1](./save/img_lib_bin_1654990391249844.jpg)|![1](./save/img_custom_bin1_1654990391249844.jpg)|![1](./save/img_custom_bin2_1654990391249844.jpg)|![1](./save/HIST_custom_bin1_1654990391249844.png)|70/69|
+|2|![2](../static/bs_small.jpg)|![2](./save/img_lib_bin_1654990450997012.jpg)|![2](./save/img_custom_bin1_1654990450997012.jpg)|![2](./save/img_custom_bin2_1654990450997012.jpg)|![2](./save/HIST_custom_bin1_1654990450997012.png)|121/122|
+|3|![3](../static/bp.jpg)|![3](./save/img_lib_bin_1654990515835508.jpg)|![3](./save/img_custom_bin1_1654990515835508.jpg)|![3](./save/img_custom_bin2_1654990515835508.jpg)|![3](./save/HIST_custom_bin1_1654990515835508.png)|144/134|
