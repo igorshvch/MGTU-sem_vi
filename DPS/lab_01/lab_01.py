@@ -1,6 +1,5 @@
 import pathlib as path
 from datetime import datetime as dt
-from xml.sax.handler import feature_external_ges
 
 from PIL import Image
 import cv2

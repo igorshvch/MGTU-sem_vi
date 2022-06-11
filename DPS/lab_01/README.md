@@ -10,4 +10,3 @@
 |2|![2](../static/bl2049_small.jpg)|17x17, 6|![2](./save/img_blur_lib_1654965261908178.jpg)|![2](./save/img_blur_lib_1654965261908178.jpg)|
 |3|![3](../static/bp.jpg)|5x5, 8|![3](./save/img_blur_lib_1654965747241488.jpg)|![3](./save/img_blur_custom_1654965763683917.jpg)|
 |4|![4](../static/bp.jpg)|11x11, 9|![4](./save/img_blur_custom_1654966398935716.jpg)|![4](./save/img_blur_custom_1654966398935716.jpg)|
-
