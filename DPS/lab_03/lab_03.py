@@ -124,6 +124,7 @@ def main(save_path, image_path, proc_opt, kernel_opt, kernel_size, iters):
         p_img = path.Path(image_path)
         if p_img.is_file():
             gray_img = get_gray_img(image_path)
+            bin_image = get_lib_Otsu_bin(gray_img)
         else:
             raise ValueError("Incorrect path to image!")
     else:
