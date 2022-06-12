@@ -148,7 +148,7 @@ if __name__ == "__main__":
     while True:
         image_path = input("Enter absolute or relative path to file to convert (to use default press 0) >>>\t")
         #proc_opt
-        print(">>> Choose border detector (insert line number or press 0 to use default):")
+        print(">>> Choose edge detector (insert line number or press 0 to use default):")
         print(
             ">>>\t1. Canny\n"
             +">>>\t2. Roberts\n"
