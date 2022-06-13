@@ -42,35 +42,37 @@ def get_kernel(option=1, size=3):
     return options[option](size)
 
 def dilation(bin_image, kernel, iters):
-    return cv2.dilate(bin_image, kernel, iterations=iters)
+    return ~cv2.dilate(~bin_image, kernel, iterations=iters)
 
 def erosion(bin_image, kernel, iters):
-    return cv2.erode(bin_image, kernel, iterations=iters)
+    return ~cv2.erode(~bin_image, kernel, iterations=iters)
 
 def opening(bin_image, kernel, iters):
-    return cv2.dilate(
-        cv2.erode(bin_image, kernel, iterations=iters),
+    return ~cv2.dilate(
+        cv2.erode(~bin_image, kernel, iterations=iters),
             kernel,
             iterations = iters
     )
 
 def closing(bin_image, kernel, iters):
-    return cv2.erode(
-        cv2.dilate(bin_image, kernel, iterations=iters),
+    return ~cv2.erode(
+        cv2.dilate(~bin_image, kernel, iterations=iters),
         kernel,
         iterations = iters
     )
 
 def cond_dilat(bin_image, kernel, iters = 100):
-    temp_img = cv2.erode(bin_image, kernel, iterations=3)
+    bin_image = ~bin_image
+    minimum = np.minimum(bin_image, cv2.erode(bin_image, kernel, iterations=3))
     for i in range(iters):
-        previous = temp_img
-        temp_img = cv2.dilate(temp_img, kernel, iterations=1)
-        result = np.minimum(bin_image, temp_img)
+        previous = minimum
+        minimum = cv2.dilate(minimum, kernel, iterations=1)
+        result = np.minimum(bin_image, minimum)
         if np.array_equal(result, previous):
             print(">>> Condition dilataion ended after %d itearations", i)
-            return result
-    return result
+            return ~result
+        minimum = result
+    return ~result
 
 def sceletonization(bin_image, kernel):
     skeleton = np.zeros(bin_image.shape, np.uint8)

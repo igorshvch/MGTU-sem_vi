@@ -6,9 +6,9 @@
 
 |№|Исходное изображение|Измененное изображение|Метод|Структурный элемент|Размер|Итерации|
 |-|-|-|-|-|-|-|
-|1|![1](../static/captcha2.jpg)|![1](./save/captcha2_dilation_rect_s3_i1_431568.jpg)|Дилатация|Прямоугольник|3х3|1|
-|2|![2](../static/captcha2.jpg)|![2](./save/captcha2_erosion_rect_s3_i1_250472.jpg)|Ерозия|Прямоугольник|3х3|1|
-|3|![3](../static/captcha2.jpg)|![3](./save/captcha2_opening_rect_s3_i1_66384.jpg)|Размыкание|Прямоугольник|3х3|1|
-|4|![4](../static/captcha2.jpg)|![4](./save/captcha2_closing_rect_s3_i1_221529.jpg)|Замыкание|Прямоугольник|3х3|1|
-|5|![5](../static/captcha2.jpg)|![5](./save/captcha2_cond_dilat_rect_s3_i1_841275.jpg)|Условноая дилатация|Прямоугольник|3х3|1|
+|1|![1](../static/captcha2.jpg)|![1](./save/captcha2_dilation_rect_s3_i1_517443.jpg)|Дилатация|Прямоугольник|3х3|1|
+|2|![2](../static/captcha2.jpg)|![2](./save/captcha2_erosion_rect_s3_i1_074641.jpg)|Ерозия|Прямоугольник|3х3|1|
+|3|![3](../static/captcha2.jpg)|![3](./save/captcha2_opening_rect_s3_i1_374063.jpg)|Размыкание|Прямоугольник|3х3|1|
+|4|![4](../static/captcha2.jpg)|![4](./save/captcha2_closing_rect_s3_i1_151064.jpg)|Замыкание|Прямоугольник|3х3|1|
+|5|![5](../static/captcha2.jpg)|![5](./save/captcha2_cond_dilat_rect_s3_i1_251037.jpg)|Условноая дилатация|Прямоугольник|3х3|1|
 |6|![6](../static/cowboy.jpg)|![6](./save/cowboy_sceletonization_rect_s3_i1_937573.jpg)|Морфологический скелет|Прямоугольник|3х3|1|
