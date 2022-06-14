@@ -196,7 +196,7 @@ if __name__ == "__main__":
         )
         mode = input(">>> ")
         #threshold
-        threshold = input("Enter threshold >>>\t")
+        threshold = input("Enter threshold (for Laplacian detector if it > 1 then it will be multiplied by 0.01)>>>\t")
         #main
         main(save_path, image_path, mode, threshold)
         stop = input("\nPress Enter to continue. To exit press 0 >>>\t")
