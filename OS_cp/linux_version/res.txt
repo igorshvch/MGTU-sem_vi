@@ -1,0 +1,1986 @@
+Listening
+Reader 1 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 1: val value: 0
+Writer 1 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 1: val incremented from 0 to 1
+Reader 2 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 2: val value: 1
+Writer 2 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 2: val incremented from 1 to 2
+Reader 3 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 3: val value: 2
+Reader 4 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 4: val value: 2
+Writer 3 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 3: val incremented from 2 to 3
+Writer 4 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 4: val incremented from 3 to 4
+Reader 5 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 5: val value: 4
+Reader 6 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 6: val value: 4
+Writer 5 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 5: val incremented from 4 to 5
+Writer 6 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 6: val incremented from 5 to 6
+Reader 7 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 7: val value: 6
+Writer 7 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 7: val incremented from 6 to 7
+Reader 8 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 8: val value: 7
+Reader 9 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 9: val value: 7
+Writer 8 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 8: val incremented from 7 to 8
+Writer 9 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 9: val incremented from 8 to 9
+Reader 10 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 10: val value: 9
+Reader 11 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 11: val value: 9
+Writer 10 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 10: val incremented from 9 to 10
+Reader 12 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 12: val value: 10
+Writer 11 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 11: val incremented from 10 to 11
+Writer 12 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 12: val incremented from 11 to 12
+Reader 13 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 13: val value: 12
+Writer 13 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 13: val incremented from 12 to 13
+Reader 14 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 14: val value: 13
+Writer 14 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 14: val incremented from 13 to 14
+Reader 15 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 15: val value: 14
+Writer 15 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 1
+Writer 17 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 1 | writer in queue: 0
+>>> Writer 17: val incremented from 14 to 15
+Reader 16 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 16: val value: 15
+>>> Writer 15: val incremented from 15 to 16
+Writer 16 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 16: val incremented from 16 to 17
+Reader 17 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 17: val value: 17
+Writer 18 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 18: val incremented from 17 to 18
+Reader 18 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 18: val value: 18
+Reader 19 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 19: val value: 18
+Writer 19 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 19: val incremented from 18 to 19
+Reader 20 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 20: val value: 19
+Writer 20 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 20: val incremented from 19 to 20
+Reader 21 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 21: val value: 20
+Writer 21 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 21: val incremented from 20 to 21
+Reader 22 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 22: val value: 21
+Reader 23 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 23: val value: 21
+Writer 22 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 22: val incremented from 21 to 22
+Writer 23 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 23: val incremented from 22 to 23
+Reader 24 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 24: val value: 23
+Reader 25 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 25: val value: 23
+Writer 24 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 24: val incremented from 23 to 24
+Reader 26 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 26: val value: 24
+Writer 25 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 25: val incremented from 24 to 25
+Writer 26 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 26: val incremented from 25 to 26
+Reader 27 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 27: val value: 26
+Writer 27 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 27: val incremented from 26 to 27
+Reader 28 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 28: val value: 27
+Writer 28 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 28: val incremented from 27 to 28
+Reader 29 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 29: val value: 28
+Reader 30 is reading | readers in total: 2 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 30: val value: 28
+Writer 29 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 2 | writer in queue: 1
+>>> Writer 29: val incremented from 28 to 29
+Reader 32 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 1 | writer in queue: 1
+>>> Reader 32: val value: 29
+Reader 31 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 2
+>>> Reader 31: val value: 29
+Writer 31 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 1
+>>> Writer 31: val incremented from 29 to 30
+Writer 30 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 30: val incremented from 30 to 31
+Reader 33 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 33: val value: 31
+Writer 32 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 32: val incremented from 31 to 32
+Reader 34 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 34: val value: 32
+Writer 33 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 33: val incremented from 32 to 33
+Reader 35 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 35: val value: 33
+Writer 34 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 34: val incremented from 33 to 34
+Reader 36 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 36: val value: 34
+Writer 35 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 35: val incremented from 34 to 35
+Reader 37 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 37: val value: 35
+Writer 36 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 36: val incremented from 35 to 36
+Reader 38 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 38: val value: 36
+Writer 37 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 37: val incremented from 36 to 37
+Reader 39 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 39: val value: 37
+Reader 40 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 40: val value: 37
+Writer 38 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 38: val incremented from 37 to 38
+Reader 41 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 41: val value: 38
+Writer 39 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 39: val incremented from 38 to 39
+Writer 40 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 40: val incremented from 39 to 40
+Reader 42 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 42: val value: 40
+Writer 41 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 41: val incremented from 40 to 41
+Reader 43 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 43: val value: 41
+Writer 42 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 42: val incremented from 41 to 42
+Reader 44 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 44: val value: 42
+Writer 43 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 43: val incremented from 42 to 43
+Reader 45 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 45: val value: 43
+Writer 44 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 44: val incremented from 43 to 44
+Reader 46 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 46: val value: 44
+Writer 45 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 45: val incremented from 44 to 45
+Reader 47 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 47: val value: 45
+Writer 46 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 46: val incremented from 45 to 46
+Reader 48 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 48: val value: 46
+Reader 49 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 49: val value: 46
+Writer 47 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 47: val incremented from 46 to 47
+Writer 48 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 48: val incremented from 47 to 48
+Reader 50 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 50: val value: 48
+Writer 49 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 49: val incremented from 48 to 49
+Reader 51 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 51: val value: 49
+Writer 50 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 50: val incremented from 49 to 50
+Reader 52 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 52: val value: 50
+Reader 53 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 53: val value: 50
+Writer 51 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 51: val incremented from 50 to 51
+Writer 52 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 52: val incremented from 51 to 52
+Reader 54 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 54: val value: 52
+Reader 55 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 55: val value: 52
+Writer 53 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 53: val incremented from 52 to 53
+Reader 56 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 56: val value: 53
+Writer 54 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 54: val incremented from 53 to 54
+Writer 55 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 55: val incremented from 54 to 55
+Reader 57 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 57: val value: 55
+Writer 56 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 56: val incremented from 55 to 56
+Reader 58 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 58: val value: 56
+Reader 59 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 59: val value: 56
+Writer 57 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 57: val incremented from 56 to 57
+Reader 60 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 60: val value: 57
+Writer 58 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 58: val incremented from 57 to 58
+Reader 61 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 61: val value: 58
+Writer 59 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 59: val incremented from 58 to 59
+Writer 60 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 60: val incremented from 59 to 60
+Reader 62 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 62: val value: 60
+Reader 63 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 63: val value: 60
+Writer 61 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 61: val incremented from 60 to 61
+Reader 64 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 64: val value: 61
+Writer 62 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 62: val incremented from 61 to 62
+Writer 63 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 63: val incremented from 62 to 63
+Reader 65 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 65: val value: 63
+Reader 66 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 66: val value: 63
+Writer 64 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 64: val incremented from 63 to 64
+Writer 65 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 65: val incremented from 64 to 65
+Reader 67 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 67: val value: 65
+Writer 66 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 66: val incremented from 65 to 66
+Reader 68 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 68: val value: 66
+Reader 69 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 69: val value: 66
+Writer 67 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 67: val incremented from 66 to 67
+Writer 68 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 68: val incremented from 67 to 68
+Reader 70 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 70: val value: 68
+Reader 71 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 71: val value: 68
+Writer 69 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 69: val incremented from 68 to 69
+Writer 70 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 70: val incremented from 69 to 70
+Reader 72 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 72: val value: 70
+Writer 71 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 71: val incremented from 70 to 71
+Reader 73 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 73: val value: 71
+Reader 74 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 74: val value: 71
+Writer 72 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 72: val incremented from 71 to 72
+Reader 75 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 75: val value: 72
+Writer 73 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 73: val incremented from 72 to 73
+Reader 76 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 76: val value: 73
+Writer 74 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 74: val incremented from 73 to 74
+Reader 77 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 77: val value: 74
+Writer 75 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 75: val incremented from 74 to 75
+Writer 76 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 76: val incremented from 75 to 76
+Reader 78 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 78: val value: 76
+Reader 79 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 79: val value: 76
+Writer 77 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 77: val incremented from 76 to 77
+Reader 80 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 80: val value: 77
+Writer 78 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 78: val incremented from 77 to 78
+Reader 81 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 81: val value: 78
+Writer 79 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 79: val incremented from 78 to 79
+Writer 80 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 80: val incremented from 79 to 80
+Reader 82 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 82: val value: 80
+Reader 83 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 83: val value: 80
+Writer 81 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 81: val incremented from 80 to 81
+Writer 82 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 82: val incremented from 81 to 82
+Reader 84 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 84: val value: 82
+Reader 85 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 85: val value: 82
+Writer 83 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 83: val incremented from 82 to 83
+Reader 86 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 86: val value: 83
+Writer 84 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 84: val incremented from 83 to 84
+Reader 88 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 1 | writer in queue: 0
+>>> Reader 88: val value: 84
+Reader 87 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 87: val value: 84
+Writer 85 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 85: val incremented from 84 to 85
+Reader 89 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 89: val value: 85
+Writer 86 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 86: val incremented from 85 to 86
+Reader 90 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 90: val value: 86
+Reader 91 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 91: val value: 86
+Writer 87 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 87: val incremented from 86 to 87
+Reader 92 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 92: val value: 87
+Writer 88 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 88: val incremented from 87 to 88
+Reader 93 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 93: val value: 88
+Writer 89 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 89: val incremented from 88 to 89
+Reader 94 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 94: val value: 89
+Writer 90 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 90: val incremented from 89 to 90
+Reader 95 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 95: val value: 90
+Writer 91 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 91: val incremented from 90 to 91
+Reader 96 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 96: val value: 91
+Writer 92 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 92: val incremented from 91 to 92
+Reader 97 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 97: val value: 92
+Reader 98 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 98: val value: 92
+Writer 93 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 93: val incremented from 92 to 93
+Writer 94 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 94: val incremented from 93 to 94
+Reader 99 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 99: val value: 94
+Reader 100 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 100: val value: 94
+Writer 95 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 95: val incremented from 94 to 95
+Reader 101 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 101: val value: 95
+Writer 96 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 96: val incremented from 95 to 96
+Reader 102 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 102: val value: 96
+Writer 97 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 97: val incremented from 96 to 97
+Reader 103 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 103: val value: 97
+Writer 98 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 98: val incremented from 97 to 98
+Reader 104 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 104: val value: 98
+Writer 99 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 99: val incremented from 98 to 99
+Reader 105 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 105: val value: 99
+Writer 100 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 100: val incremented from 99 to 100
+Reader 106 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 106: val value: 100
+Reader 107 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 107: val value: 100
+Writer 101 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 101: val incremented from 100 to 101
+Reader 108 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 108: val value: 101
+Writer 102 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 102: val incremented from 101 to 102
+Reader 109 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 109: val value: 102
+Writer 103 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 103: val incremented from 102 to 103
+Writer 104 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 104: val incremented from 103 to 104
+Reader 110 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 110: val value: 104
+Writer 105 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 105: val incremented from 104 to 105
+Reader 111 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 111: val value: 105
+Writer 106 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 106: val incremented from 105 to 106
+Reader 112 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 112: val value: 106
+Reader 113 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 113: val value: 106
+Writer 107 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 107: val incremented from 106 to 107
+Writer 108 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 108: val incremented from 107 to 108
+Reader 114 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 114: val value: 108
+Reader 115 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 115: val value: 108
+Writer 109 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 109: val incremented from 108 to 109
+Writer 110 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 110: val incremented from 109 to 110
+Reader 116 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 116: val value: 110
+Reader 117 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 117: val value: 110
+Writer 111 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 111: val incremented from 110 to 111
+Reader 118 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 118: val value: 111
+Writer 112 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 112: val incremented from 111 to 112
+Reader 119 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 119: val value: 112
+Writer 113 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 113: val incremented from 112 to 113
+Reader 120 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 120: val value: 113
+Reader 121 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 121: val value: 113
+Writer 114 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 114: val incremented from 113 to 114
+Reader 122 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 122: val value: 114
+Writer 115 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 115: val incremented from 114 to 115
+Reader 123 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 123: val value: 115
+Writer 116 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 116: val incremented from 115 to 116
+Reader 124 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 124: val value: 116
+Writer 117 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 117: val incremented from 116 to 117
+Reader 125 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 125: val value: 117
+Reader 126 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 126: val value: 117
+Writer 118 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 118: val incremented from 117 to 118
+Writer 119 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 119: val incremented from 118 to 119
+Reader 127 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 127: val value: 119
+Writer 120 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 120: val incremented from 119 to 120
+Reader 128 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 128: val value: 120
+Writer 121 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 121: val incremented from 120 to 121
+Reader 129 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 129: val value: 121
+Reader 130 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 130: val value: 121
+Writer 122 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 122: val incremented from 121 to 122
+Writer 123 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 123: val incremented from 122 to 123
+Reader 131 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 131: val value: 123
+Writer 126 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 2 | writer in queue: 2
+>>> Writer 126: val incremented from 123 to 124
+Reader 132 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 1 | writer in queue: 2
+Writer 124 is writing | readers in total: 1 | writers in total: 1 | readers in queue: 1 | writer in queue: 1
+>>> Writer 124: val incremented from 124 to 125
+>>> Reader 132: val value: 125
+Reader 133 is reading | readers in total: 2 | writers in total: 0 | readers in queue: 0 | writer in queue: 2
+>>> Reader 133: val value: 125
+Writer 125 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 2 | writer in queue: 1
+>>> Writer 125: val incremented from 125 to 126
+Reader 135 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 1 | writer in queue: 1
+>>> Reader 135: val value: 126
+Writer 127 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 2 | writer in queue: 2
+Reader 134 is reading | readers in total: 1 | writers in total: 1 | readers in queue: 1 | writer in queue: 2
+>>> Writer 127: val incremented from 126 to 127
+>>> Reader 134: val value: 127
+Reader 136 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 1 | writer in queue: 2
+Writer 128 is writing | readers in total: 1 | writers in total: 1 | readers in queue: 2 | writer in queue: 2
+>>> Writer 128: val incremented from 127 to 128
+>>> Reader 136: val value: 128
+Reader 137 is reading | readers in total: 2 | writers in total: 0 | readers in queue: 1 | writer in queue: 2
+>>> Reader 137: val value: 128
+Reader 138 is reading | readers in total: 2 | writers in total: 0 | readers in queue: 0 | writer in queue: 2
+>>> Reader 138: val value: 128
+Writer 132 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 1 | writer in queue: 3
+>>> Writer 132: val incremented from 128 to 129
+Reader 139 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 1 | writer in queue: 3
+Writer 129 is writing | readers in total: 1 | writers in total: 1 | readers in queue: 1 | writer in queue: 3
+>>> Writer 129: val incremented from 129 to 130
+>>> Reader 139: val value: 130
+Writer 130 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 2 | writer in queue: 2
+>>> Writer 130: val incremented from 130 to 131
+Reader 141 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 1 | writer in queue: 2
+>>> Reader 141: val value: 131
+Writer 131 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 2 | writer in queue: 1
+>>> Writer 131: val incremented from 131 to 132
+Reader 140 is reading | readers in total: 1 | writers in total: 1 | readers in queue: 1 | writer in queue: 1
+>>> Reader 140: val value: 132
+Writer 133 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 1 | writer in queue: 2
+Reader 142 is reading | readers in total: 1 | writers in total: 1 | readers in queue: 0 | writer in queue: 2
+>>> Reader 142: val value: 132
+>>> Writer 133: val incremented from 132 to 133
+Writer 134 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 1 | writer in queue: 1
+>>> Writer 134: val incremented from 133 to 134
+Reader 144 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 1 | writer in queue: 1
+>>> Reader 144: val value: 134
+Writer 138 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 1 | writer in queue: 2
+>>> Writer 138: val incremented from 134 to 135
+Reader 143 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 2
+>>> Reader 143: val value: 135
+Writer 137 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 2
+>>> Writer 137: val incremented from 135 to 136
+Reader 146 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 3
+>>> Reader 146: val value: 136
+Writer 139 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 2
+>>> Writer 139: val incremented from 136 to 137
+Writer 143 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 1 | writer in queue: 2
+>>> Writer 143: val incremented from 137 to 138
+Writer 135 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 1 | writer in queue: 1
+Reader 151 is reading | readers in total: 1 | writers in total: 1 | readers in queue: 0 | writer in queue: 1
+>>> Writer 135: val incremented from 138 to 139
+>>> Reader 151: val value: 139
+Writer 136 is writing | readers in total: 1 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 136: val incremented from 139 to 140
+Reader 145 is reading | readers in total: 2 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 145: val value: 140
+Writer 144 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 6 | writer in queue: 3
+>>> Writer 144: val incremented from 140 to 141
+Reader 152 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 5 | writer in queue: 3
+Reader 147 is reading | readers in total: 2 | writers in total: 0 | readers in queue: 5 | writer in queue: 4
+Reader 148 is reading | readers in total: 3 | writers in total: 0 | readers in queue: 4 | writer in queue: 4
+Reader 149 is reading | readers in total: 4 | writers in total: 0 | readers in queue: 3 | writer in queue: 4
+Reader 150 is reading | readers in total: 5 | writers in total: 0 | readers in queue: 2 | writer in queue: 5
+>>> Reader 152: val value: 141
+Reader 153 is reading | readers in total: 5 | writers in total: 0 | readers in queue: 1 | writer in queue: 5
+>>> Reader 153: val value: 141
+>>> Reader 150: val value: 141
+>>> Reader 147: val value: 141
+>>> Reader 148: val value: 141
+>>> Reader 149: val value: 141
+Reader 154 is reading | readers in total: 5 | writers in total: 0 | readers in queue: 1 | writer in queue: 5
+>>> Reader 154: val value: 141
+Reader 155 is reading | readers in total: 3 | writers in total: 0 | readers in queue: 2 | writer in queue: 6
+Reader 157 is reading | readers in total: 3 | writers in total: 0 | readers in queue: 1 | writer in queue: 6
+>>> Reader 155: val value: 141
+>>> Reader 157: val value: 141
+Writer 140 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 2 | writer in queue: 5
+>>> Writer 140: val incremented from 141 to 142
+Reader 156 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 1 | writer in queue: 6
+>>> Reader 156: val value: 142
+Writer 141 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 1 | writer in queue: 5
+>>> Writer 141: val incremented from 142 to 143
+Reader 158 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 5
+Reader 159 is reading | readers in total: 2 | writers in total: 0 | readers in queue: 1 | writer in queue: 7
+>>> Reader 159: val value: 143
+>>> Reader 158: val value: 143
+Writer 142 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 2 | writer in queue: 7
+>>> Writer 142: val incremented from 143 to 144
+Reader 161 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 1 | writer in queue: 7
+>>> Reader 161: val value: 144
+Writer 145 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 1 | writer in queue: 6
+>>> Writer 145: val incremented from 144 to 145
+Reader 160 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 7
+>>> Reader 160: val value: 145
+Writer 146 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 1 | writer in queue: 6
+>>> Writer 146: val incremented from 145 to 146
+Reader 162 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 6
+>>> Reader 162: val value: 146
+Writer 153 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 6
+>>> Writer 153: val incremented from 146 to 147
+Writer 147 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 5
+>>> Writer 147: val incremented from 147 to 148
+Writer 151 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 4
+>>> Writer 151: val incremented from 148 to 149
+Writer 148 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 3
+>>> Writer 148: val incremented from 149 to 150
+Writer 149 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 2
+>>> Writer 149: val incremented from 150 to 151
+Writer 156 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 5
+Writer 150 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 4
+>>> Writer 156: val incremented from 151 to 152
+>>> Writer 150: val incremented from 152 to 153
+Writer 161 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 2 | writer in queue: 4
+>>> Writer 161: val incremented from 153 to 154
+Reader 170 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 1 | writer in queue: 4
+>>> Reader 170: val value: 154
+Writer 152 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 1 | writer in queue: 3
+>>> Writer 152: val incremented from 154 to 155
+Writer 155 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 2 | writer in queue: 3
+>>> Writer 155: val incremented from 155 to 156
+Reader 166 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 3 | writer in queue: 4
+Reader 171 is reading | readers in total: 2 | writers in total: 0 | readers in queue: 3 | writer in queue: 6
+>>> Reader 166: val value: 156
+>>> Reader 171: val value: 156
+Writer 160 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 4 | writer in queue: 6
+>>> Writer 160: val incremented from 156 to 157
+Reader 164 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 3 | writer in queue: 7
+>>> Reader 164: val value: 157
+Writer 159 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 3 | writer in queue: 7
+>>> Writer 159: val incremented from 157 to 158
+Writer 158 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 3 | writer in queue: 7
+>>> Writer 158: val incremented from 158 to 159
+Writer 170 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 5 | writer in queue: 8
+>>> Writer 170: val incremented from 159 to 160
+Reader 169 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 4 | writer in queue: 8
+Reader 167 is reading | readers in total: 2 | writers in total: 0 | readers in queue: 4 | writer in queue: 10
+Reader 174 is reading | readers in total: 3 | writers in total: 0 | readers in queue: 4 | writer in queue: 10
+Reader 173 is reading | readers in total: 4 | writers in total: 0 | readers in queue: 4 | writer in queue: 10
+Reader 166 is reading | readers in total: 5 | writers in total: 0 | readers in queue: 4 | writer in queue: 10
+>>> Reader 166: val value: 160
+Reader 175 is reading | readers in total: 5 | writers in total: 0 | readers in queue: 7 | writer in queue: 12
+Reader 163 is reading | readers in total: 6 | writers in total: 0 | readers in queue: 6 | writer in queue: 12
+>>> Reader 169: val value: 160
+Reader 176 is reading | readers in total: 7 | writers in total: 0 | readers in queue: 5 | writer in queue: 12
+Reader 179 is reading | readers in total: 7 | writers in total: 0 | readers in queue: 5 | writer in queue: 13
+>>> Reader 173: val value: 160
+Reader 177 is reading | readers in total: 7 | writers in total: 0 | readers in queue: 4 | writer in queue: 14
+>>> Reader 177: val value: 160
+>>> Reader 174: val value: 160
+>>> Reader 175: val value: 160
+Reader 178 is reading | readers in total: 5 | writers in total: 0 | readers in queue: 4 | writer in queue: 14
+Reader 172 is reading | readers in total: 6 | writers in total: 0 | readers in queue: 3 | writer in queue: 14
+>>> Reader 167: val value: 160
+Reader 181 is reading | readers in total: 6 | writers in total: 0 | readers in queue: 2 | writer in queue: 14
+>>> Reader 176: val value: 160
+>>> Reader 181: val value: 160
+>>> Reader 178: val value: 160
+>>> Reader 179: val value: 160
+>>> Reader 163: val value: 160
+>>> Reader 172: val value: 160
+Writer 154 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 6 | writer in queue: 16
+Reader 182 is reading | readers in total: 1 | writers in total: 1 | readers in queue: 5 | writer in queue: 16
+>>> Writer 154: val incremented from 160 to 161
+Reader 187 is reading | readers in total: 2 | writers in total: 0 | readers in queue: 5 | writer in queue: 16
+>>> Reader 182: val value: 161
+Reader 184 is reading | readers in total: 2 | writers in total: 0 | readers in queue: 6 | writer in queue: 18
+Reader 188 is reading | readers in total: 3 | writers in total: 0 | readers in queue: 5 | writer in queue: 20
+Reader 183 is reading | readers in total: 4 | writers in total: 0 | readers in queue: 6 | writer in queue: 21
+Reader 180 is reading | readers in total: 5 | writers in total: 0 | readers in queue: 5 | writer in queue: 21
+Reader 185 is reading | readers in total: 6 | writers in total: 0 | readers in queue: 5 | writer in queue: 23
+Reader 186 is reading | readers in total: 7 | writers in total: 0 | readers in queue: 4 | writer in queue: 23
+Reader 190 is reading | readers in total: 8 | writers in total: 0 | readers in queue: 3 | writer in queue: 23
+Reader 189 is reading | readers in total: 9 | writers in total: 0 | readers in queue: 2 | writer in queue: 23
+>>> Reader 187: val value: 161
+Reader 191 is reading | readers in total: 9 | writers in total: 0 | readers in queue: 1 | writer in queue: 23
+>>> Reader 184: val value: 161
+Reader 192 is reading | readers in total: 9 | writers in total: 0 | readers in queue: 0 | writer in queue: 24
+>>> Reader 192: val value: 161
+>>> Reader 188: val value: 161
+Reader 194 is reading | readers in total: 8 | writers in total: 0 | readers in queue: 1 | writer in queue: 25
+Reader 194 is reading | readers in total: 9 | writers in total: 0 | readers in queue: 1 | writer in queue: 25
+>>> Reader 194: val value: 161
+>>> Reader 180: val value: 161
+>>> Reader 185: val value: 161
+>>> Reader 183: val value: 161
+Reader 195 is reading | readers in total: 6 | writers in total: 0 | readers in queue: 0 | writer in queue: 26
+>>> Reader 195: val value: 161
+>>> Reader 186: val value: 161
+Reader 196 is reading | readers in total: 5 | writers in total: 0 | readers in queue: 2 | writer in queue: 27
+Reader 198 is reading | readers in total: 6 | writers in total: 0 | readers in queue: 1 | writer in queue: 28
+>>> Reader 198: val value: 161
+>>> Reader 189: val value: 161
+>>> Reader 191: val value: 161
+>>> Reader 190: val value: 161
+Reader 197 is reading | readers in total: 3 | writers in total: 0 | readers in queue: 0 | writer in queue: 28
+>>> Reader 197: val value: 161
+>>> Reader 194: val value: 161
+Reader 199 is reading | readers in total: 2 | writers in total: 0 | readers in queue: 0 | writer in queue: 29
+>>> Reader 199: val value: 161
+>>> Reader 196: val value: 161
+Writer 191 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 29
+>>> Writer 191: val incremented from 161 to 162
+Writer 192 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 29
+>>> Writer 192: val incremented from 162 to 163
+Writer 157 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 28
+>>> Writer 157: val incremented from 163 to 164
+Writer 167 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 27
+>>> Writer 167: val incremented from 164 to 165
+Writer 168 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 1 | writer in queue: 26
+>>> Writer 168: val incremented from 165 to 166
+Reader 202 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 26
+>>> Reader 202: val value: 166
+Writer 162 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 25
+>>> Writer 162: val incremented from 166 to 167
+Writer 164 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 24
+>>> Writer 164: val incremented from 167 to 168
+Reader 203 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 1 | writer in queue: 24
+Writer 165 is writing | readers in total: 1 | writers in total: 1 | readers in queue: 1 | writer in queue: 25
+>>> Reader 203: val value: 168
+>>> Writer 165: val incremented from 168 to 169
+Writer 202 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 4 | writer in queue: 25
+>>> Writer 202: val incremented from 169 to 170
+Reader 200 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 3 | writer in queue: 25
+Writer 163 is writing | readers in total: 1 | writers in total: 1 | readers in queue: 7 | writer in queue: 29
+>>> Writer 163: val incremented from 170 to 171
+Reader 204 is reading | readers in total: 2 | writers in total: 1 | readers in queue: 9 | writer in queue: 31
+Reader 201 is reading | readers in total: 3 | writers in total: 1 | readers in queue: 8 | writer in queue: 31
+>>> Reader 204: val value: 171
+>>> Reader 201: val value: 171
+Reader 205 is reading | readers in total: 4 | writers in total: 0 | readers in queue: 7 | writer in queue: 32
+Reader 207 is reading | readers in total: 5 | writers in total: 0 | readers in queue: 6 | writer in queue: 32
+>>> Reader 207: val value: 171
+>>> Reader 205: val value: 171
+Reader 213 is reading | readers in total: 4 | writers in total: 0 | readers in queue: 5 | writer in queue: 32
+>>> Reader 213: val value: 171
+Reader 212 is reading | readers in total: 4 | writers in total: 0 | readers in queue: 4 | writer in queue: 32
+Writer 171 is writing | readers in total: 4 | writers in total: 1 | readers in queue: 4 | writer in queue: 32
+>>> Reader 200: val value: 171
+>>> Reader 212: val value: 171
+Reader 206 is reading | readers in total: 2 | writers in total: 1 | readers in queue: 3 | writer in queue: 33
+>>> Reader 206: val value: 171
+>>> Writer 171: val incremented from 171 to 172
+Reader 208 is reading | readers in total: 2 | writers in total: 0 | readers in queue: 3 | writer in queue: 33
+Reader 209 is reading | readers in total: 2 | writers in total: 0 | readers in queue: 3 | writer in queue: 33
+Reader 210 is reading | readers in total: 3 | writers in total: 0 | readers in queue: 2 | writer in queue: 33
+>>> Reader 208: val value: 172
+Reader 211 is reading | readers in total: 3 | writers in total: 0 | readers in queue: 2 | writer in queue: 35
+>>> Reader 209: val value: 172
+Reader 214 is reading | readers in total: 3 | writers in total: 0 | readers in queue: 2 | writer in queue: 36
+>>> Reader 210: val value: 172
+>>> Reader 214: val value: 172
+>>> Reader 211: val value: 172
+Writer 166 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 2 | writer in queue: 35
+>>> Writer 166: val incremented from 172 to 173
+Reader 216 is reading | readers in total: 1 | writers in total: 1 | readers in queue: 1 | writer in queue: 35
+>>> Reader 216: val value: 173
+Reader 215 is reading | readers in total: 2 | writers in total: 1 | readers in queue: 1 | writer in queue: 36
+Reader 217 is reading | readers in total: 3 | writers in total: 1 | readers in queue: 1 | writer in queue: 36
+>>> Reader 217: val value: 173
+>>> Reader 215: val value: 173
+Writer 169 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 1 | writer in queue: 35
+>>> Writer 169: val incremented from 173 to 174
+Writer 211 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 1 | writer in queue: 35
+>>> Writer 211: val incremented from 174 to 175
+Reader 218 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 35
+>>> Reader 218: val value: 175
+Writer 172 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 34
+>>> Writer 172: val incremented from 175 to 176
+Writer 212 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 1 | writer in queue: 35
+>>> Writer 212: val incremented from 176 to 177
+Reader 219 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 2 | writer in queue: 35
+Reader 220 is reading | readers in total: 2 | writers in total: 0 | readers in queue: 1 | writer in queue: 35
+>>> Reader 219: val value: 177
+>>> Reader 220: val value: 177
+Writer 173 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 1 | writer in queue: 34
+>>> Writer 173: val incremented from 177 to 178
+Reader 222 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 1 | writer in queue: 34
+>>> Reader 222: val value: 178
+Writer 174 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 1 | writer in queue: 34
+>>> Writer 174: val incremented from 178 to 179
+Reader 225 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 34
+>>> Reader 225: val value: 179
+Writer 179 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 34
+>>> Writer 179: val incremented from 179 to 180
+Writer 220 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 1 | writer in queue: 34
+>>> Writer 220: val incremented from 180 to 181
+Writer 175 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 1 | writer in queue: 33
+>>> Writer 175: val incremented from 181 to 182
+Writer 218 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 2 | writer in queue: 33
+>>> Writer 218: val incremented from 182 to 183
+Writer 219 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 4 | writer in queue: 34
+>>> Writer 219: val incremented from 183 to 184
+Reader 229 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 3 | writer in queue: 34
+Reader 223 is reading | readers in total: 2 | writers in total: 0 | readers in queue: 5 | writer in queue: 35
+Reader 221 is reading | readers in total: 3 | writers in total: 0 | readers in queue: 4 | writer in queue: 35
+Reader 228 is reading | readers in total: 4 | writers in total: 0 | readers in queue: 3 | writer in queue: 36
+>>> Reader 229: val value: 184
+Reader 224 is reading | readers in total: 5 | writers in total: 0 | readers in queue: 4 | writer in queue: 36
+Reader 230 is reading | readers in total: 6 | writers in total: 0 | readers in queue: 3 | writer in queue: 38
+>>> Reader 230: val value: 184
+Reader 233 is reading | readers in total: 5 | writers in total: 0 | readers in queue: 5 | writer in queue: 41
+>>> Reader 221: val value: 184
+Reader 226 is reading | readers in total: 5 | writers in total: 0 | readers in queue: 4 | writer in queue: 41
+Reader 227 is reading | readers in total: 6 | writers in total: 0 | readers in queue: 4 | writer in queue: 41
+>>> Reader 224: val value: 184
+Reader 232 is reading | readers in total: 7 | writers in total: 0 | readers in queue: 3 | writer in queue: 42
+>>> Reader 232: val value: 184
+>>> Reader 228: val value: 184
+Reader 231 is reading | readers in total: 5 | writers in total: 0 | readers in queue: 2 | writer in queue: 42
+>>> Reader 231: val value: 184
+Reader 234 is reading | readers in total: 5 | writers in total: 0 | readers in queue: 1 | writer in queue: 43
+>>> Reader 223: val value: 184
+>>> Reader 234: val value: 184
+>>> Reader 233: val value: 184
+>>> Reader 226: val value: 184
+Reader 235 is reading | readers in total: 2 | writers in total: 0 | readers in queue: 2 | writer in queue: 44
+>>> Reader 235: val value: 184
+Reader 237 is reading | readers in total: 2 | writers in total: 0 | readers in queue: 3 | writer in queue: 45
+>>> Reader 227: val value: 184
+Reader 238 is reading | readers in total: 2 | writers in total: 0 | readers in queue: 2 | writer in queue: 45
+Reader 238 is reading | readers in total: 3 | writers in total: 0 | readers in queue: 2 | writer in queue: 46
+>>> Reader 237: val value: 184
+Reader 239 is reading | readers in total: 3 | writers in total: 0 | readers in queue: 1 | writer in queue: 46
+>>> Reader 239: val value: 184
+>>> Reader 238: val value: 184
+>>> Reader 238: val value: 184
+Writer 176 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 2 | writer in queue: 47
+>>> Writer 176: val incremented from 184 to 185
+Reader 245 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 1 | writer in queue: 47
+>>> Reader 245: val value: 185
+Writer 178 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 2 | writer in queue: 46
+Reader 242 is reading | readers in total: 1 | writers in total: 1 | readers in queue: 2 | writer in queue: 47
+>>> Reader 242: val value: 185
+>>> Writer 178: val incremented from 185 to 186
+Reader 240 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 7 | writer in queue: 50
+Reader 241 is reading | readers in total: 2 | writers in total: 0 | readers in queue: 7 | writer in queue: 52
+Writer 177 is writing | readers in total: 2 | writers in total: 1 | readers in queue: 7 | writer in queue: 51
+Reader 246 is reading | readers in total: 3 | writers in total: 1 | readers in queue: 6 | writer in queue: 51
+Reader 244 is reading | readers in total: 4 | writers in total: 1 | readers in queue: 5 | writer in queue: 51
+Reader 243 is reading | readers in total: 5 | writers in total: 1 | readers in queue: 4 | writer in queue: 51
+Reader 247 is reading | readers in total: 6 | writers in total: 1 | readers in queue: 3 | writer in queue: 51
+>>> Writer 177: val incremented from 186 to 187
+>>> Reader 240: val value: 187
+>>> Reader 241: val value: 187
+>>> Reader 246: val value: 187
+>>> Reader 244: val value: 187
+>>> Reader 243: val value: 187
+>>> Reader 247: val value: 187
+Reader 249 is reading | readers in total: 7 | writers in total: 0 | readers in queue: 2 | writer in queue: 52
+>>> Reader 249: val value: 187
+Reader 248 is reading | readers in total: 7 | writers in total: 0 | readers in queue: 2 | writer in queue: 55
+>>> Reader 248: val value: 187
+Reader 251 is reading | readers in total: 6 | writers in total: 0 | readers in queue: 2 | writer in queue: 56
+>>> Reader 251: val value: 187
+Reader 255 is reading | readers in total: 6 | writers in total: 0 | readers in queue: 4 | writer in queue: 57
+Reader 250 is reading | readers in total: 5 | writers in total: 0 | readers in queue: 3 | writer in queue: 57
+>>> Reader 250: val value: 187
+>>> Reader 255: val value: 187
+Reader 252 is reading | readers in total: 4 | writers in total: 0 | readers in queue: 2 | writer in queue: 57
+>>> Reader 252: val value: 187
+Reader 256 is reading | readers in total: 2 | writers in total: 0 | readers in queue: 4 | writer in queue: 59
+Reader 257 is reading | readers in total: 2 | writers in total: 0 | readers in queue: 3 | writer in queue: 59
+Reader 258 is reading | readers in total: 3 | writers in total: 0 | readers in queue: 3 | writer in queue: 60
+>>> Reader 256: val value: 187
+Reader 253 is reading | readers in total: 3 | writers in total: 0 | readers in queue: 2 | writer in queue: 60
+Reader 254 is reading | readers in total: 4 | writers in total: 0 | readers in queue: 1 | writer in queue: 62
+>>> Reader 258: val value: 187
+>>> Reader 257: val value: 187
+Reader 259 is reading | readers in total: 4 | writers in total: 0 | readers in queue: 1 | writer in queue: 62
+>>> Reader 259: val value: 187
+>>> Reader 253: val value: 187
+>>> Reader 254: val value: 187
+Writer 181 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 1 | writer in queue: 61
+>>> Writer 181: val incremented from 187 to 188
+Reader 259 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 61
+>>> Reader 259: val value: 188
+Writer 180 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 60
+>>> Writer 180: val incremented from 188 to 189
+Writer 182 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 59
+>>> Writer 182: val incremented from 189 to 190
+Writer 183 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 58
+>>> Writer 183: val incremented from 190 to 191
+Writer 184 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 57
+>>> Writer 184: val incremented from 191 to 192
+Writer 185 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 56
+>>> Writer 185: val incremented from 192 to 193
+Writer 186 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 55
+>>> Writer 186: val incremented from 193 to 194
+Writer 187 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 54
+>>> Writer 187: val incremented from 194 to 195
+Writer 188 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 53
+>>> Writer 188: val incremented from 195 to 196
+Writer 189 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 52
+>>> Writer 189: val incremented from 196 to 197
+Writer 190 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 51
+>>> Writer 190: val incremented from 197 to 198
+Writer 199 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 50
+>>> Writer 199: val incremented from 198 to 199
+Writer 200 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 49
+>>> Writer 200: val incremented from 199 to 200
+Writer 196 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 48
+>>> Writer 196: val incremented from 200 to 201
+Writer 204 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 47
+>>> Writer 204: val incremented from 201 to 202
+Writer 198 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 46
+>>> Writer 198: val incremented from 202 to 203
+Writer 197 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 45
+>>> Writer 197: val incremented from 203 to 204
+Writer 194 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 44
+>>> Writer 194: val incremented from 204 to 205
+Writer 204 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 43
+>>> Writer 204: val incremented from 205 to 206
+Writer 201 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 42
+>>> Writer 201: val incremented from 206 to 207
+Writer 195 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 41
+>>> Writer 195: val incremented from 207 to 208
+Writer 205 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 40
+>>> Writer 205: val incremented from 208 to 209
+Writer 193 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 39
+>>> Writer 193: val incremented from 209 to 210
+Writer 206 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 38
+>>> Writer 206: val incremented from 210 to 211
+Writer 207 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 37
+>>> Writer 207: val incremented from 211 to 212
+Writer 208 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 36
+>>> Writer 208: val incremented from 212 to 213
+Writer 209 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 35
+>>> Writer 209: val incremented from 213 to 214
+Writer 210 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 34
+>>> Writer 210: val incremented from 214 to 215
+Writer 214 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 33
+>>> Writer 214: val incremented from 215 to 216
+Writer 215 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 32
+>>> Writer 215: val incremented from 216 to 217
+Writer 221 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 31
+>>> Writer 221: val incremented from 217 to 218
+Writer 213 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 30
+>>> Writer 213: val incremented from 218 to 219
+Writer 224 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 29
+>>> Writer 224: val incremented from 219 to 220
+Writer 216 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 28
+>>> Writer 216: val incremented from 220 to 221
+Writer 222 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 27
+>>> Writer 222: val incremented from 221 to 222
+Writer 223 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 26
+>>> Writer 223: val incremented from 222 to 223
+Writer 217 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 25
+>>> Writer 217: val incremented from 223 to 224
+Writer 225 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 24
+>>> Writer 225: val incremented from 224 to 225
+Writer 226 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 23
+>>> Writer 226: val incremented from 225 to 226
+Writer 227 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 22
+>>> Writer 227: val incremented from 226 to 227
+Writer 228 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 21
+>>> Writer 228: val incremented from 227 to 228
+Writer 229 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 20
+>>> Writer 229: val incremented from 228 to 229
+Writer 230 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 19
+>>> Writer 230: val incremented from 229 to 230
+Writer 234 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 18
+>>> Writer 234: val incremented from 230 to 231
+Writer 231 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 17
+>>> Writer 231: val incremented from 231 to 232
+Writer 236 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 16
+>>> Writer 236: val incremented from 232 to 233
+Writer 235 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 15
+>>> Writer 235: val incremented from 233 to 234
+Writer 238 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 14
+>>> Writer 238: val incremented from 234 to 235
+Writer 233 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 13
+>>> Writer 233: val incremented from 235 to 236
+Writer 239 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 12
+>>> Writer 239: val incremented from 236 to 237
+Writer 232 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 11
+>>> Writer 232: val incremented from 237 to 238
+Writer 243 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 10
+>>> Writer 243: val incremented from 238 to 239
+Writer 240 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 9
+>>> Writer 240: val incremented from 239 to 240
+Writer 244 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 8
+>>> Writer 244: val incremented from 240 to 241
+Writer 237 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 7
+>>> Writer 237: val incremented from 241 to 242
+Writer 245 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 6
+>>> Writer 245: val incremented from 242 to 243
+Writer 241 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 5
+>>> Writer 241: val incremented from 243 to 244
+Writer 246 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 4
+>>> Writer 246: val incremented from 244 to 245
+Writer 242 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 3
+>>> Writer 242: val incremented from 245 to 246
+Writer 247 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 2
+>>> Writer 247: val incremented from 246 to 247
+Writer 248 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 1
+>>> Writer 248: val incremented from 247 to 248
+Writer 249 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 249: val incremented from 248 to 249
+Reader 260 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 260: val value: 249
+Writer 250 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 250: val incremented from 249 to 250
+Reader 261 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 261: val value: 250
+Writer 251 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 251: val incremented from 250 to 251
+Writer 252 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 252: val incremented from 251 to 252
+Reader 263 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 263: val value: 252
+Writer 253 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 253: val incremented from 252 to 253
+Reader 264 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 264: val value: 253
+Writer 254 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 254: val incremented from 253 to 254
+Reader 266 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 266: val value: 254
+Reader 266 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 266: val value: 254
+Writer 255 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 255: val incremented from 254 to 255
+Writer 256 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 256: val incremented from 255 to 256
+Reader 266 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 266: val value: 256
+Reader 267 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 267: val value: 256
+Writer 257 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 257: val incremented from 256 to 257
+Reader 268 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 268: val value: 257
+Writer 258 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 258: val incremented from 257 to 258
+Reader 269 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 269: val value: 258
+Writer 259 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 0
+>>> Writer 259: val incremented from 258 to 259
+Reader 270 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+Reader 277 is reading | readers in total: 2 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 277: val value: 259
+Reader 271 is reading | readers in total: 2 | writers in total: 0 | readers in queue: 0 | writer in queue: 0
+>>> Reader 271: val value: 259
+>>> Reader 270: val value: 259
+Writer 260 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 1
+>>> Writer 260: val incremented from 259 to 260
+Reader 278 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 2
+Reader 272 is reading | readers in total: 2 | writers in total: 0 | readers in queue: 2 | writer in queue: 3
+>>> Reader 278: val value: 260
+Reader 280 is reading | readers in total: 2 | writers in total: 0 | readers in queue: 5 | writer in queue: 8
+Reader 280 is reading | readers in total: 3 | writers in total: 0 | readers in queue: 6 | writer in queue: 10
+Writer 267 is writing | readers in total: 3 | writers in total: 1 | readers in queue: 6 | writer in queue: 10
+>>> Writer 267: val incremented from 260 to 261
+>>> Reader 280: val value: 261
+>>> Reader 280: val value: 261
+Reader 281 is reading | readers in total: 3 | writers in total: 0 | readers in queue: 5 | writer in queue: 11
+>>> Reader 272: val value: 261
+Reader 274 is reading | readers in total: 3 | writers in total: 0 | readers in queue: 4 | writer in queue: 11
+>>> Reader 281: val value: 261
+Reader 283 is reading | readers in total: 2 | writers in total: 0 | readers in queue: 6 | writer in queue: 13
+Reader 276 is reading | readers in total: 3 | writers in total: 0 | readers in queue: 5 | writer in queue: 13
+Reader 282 is reading | readers in total: 4 | writers in total: 0 | readers in queue: 4 | writer in queue: 13
+>>> Reader 276: val value: 261
+>>> Reader 282: val value: 261
+Reader 273 is reading | readers in total: 3 | writers in total: 0 | readers in queue: 4 | writer in queue: 13
+Reader 275 is reading | readers in total: 4 | writers in total: 0 | readers in queue: 3 | writer in queue: 15
+Reader 285 is reading | readers in total: 5 | writers in total: 0 | readers in queue: 2 | writer in queue: 15
+>>> Reader 274: val value: 261
+Reader 285 is reading | readers in total: 5 | writers in total: 0 | readers in queue: 3 | writer in queue: 18
+>>> Reader 285: val value: 261
+>>> Reader 275: val value: 261
+Reader 286 is reading | readers in total: 4 | writers in total: 0 | readers in queue: 2 | writer in queue: 18
+>>> Reader 286: val value: 261
+>>> Reader 283: val value: 261
+>>> Reader 285: val value: 261
+Reader 288 is reading | readers in total: 2 | writers in total: 0 | readers in queue: 1 | writer in queue: 19
+>>> Reader 288: val value: 261
+>>> Reader 273: val value: 261
+Writer 268 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 1 | writer in queue: 18
+>>> Writer 268: val incremented from 261 to 262
+Writer 282 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 3 | writer in queue: 18
+>>> Writer 282: val incremented from 262 to 263
+Writer 284 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 3 | writer in queue: 18
+>>> Writer 284: val incremented from 263 to 264
+Reader 289 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 2 | writer in queue: 18
+Reader 290 is reading | readers in total: 2 | writers in total: 0 | readers in queue: 1 | writer in queue: 18
+Reader 287 is reading | readers in total: 3 | writers in total: 0 | readers in queue: 0 | writer in queue: 18
+>>> Reader 289: val value: 264
+Reader 292 is reading | readers in total: 4 | writers in total: 0 | readers in queue: 0 | writer in queue: 19
+>>> Reader 292: val value: 264
+>>> Reader 287: val value: 264
+>>> Reader 290: val value: 264
+Writer 270 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 1 | writer in queue: 20
+>>> Writer 270: val incremented from 264 to 265
+Reader 294 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 20
+>>> Reader 294: val value: 265
+Writer 263 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 9 | writer in queue: 28
+>>> Writer 263: val incremented from 265 to 266
+Reader 293 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 8 | writer in queue: 28
+Reader 295 is reading | readers in total: 2 | writers in total: 0 | readers in queue: 7 | writer in queue: 28
+Reader 298 is reading | readers in total: 3 | writers in total: 0 | readers in queue: 7 | writer in queue: 29
+Reader 297 is reading | readers in total: 4 | writers in total: 0 | readers in queue: 6 | writer in queue: 29
+Reader 296 is reading | readers in total: 5 | writers in total: 0 | readers in queue: 5 | writer in queue: 29
+Reader 300 is reading | readers in total: 6 | writers in total: 0 | readers in queue: 4 | writer in queue: 30
+>>> Reader 293: val value: 266
+Reader 302 is reading | readers in total: 6 | writers in total: 0 | readers in queue: 3 | writer in queue: 30
+Reader 299 is reading | readers in total: 7 | writers in total: 0 | readers in queue: 2 | writer in queue: 30
+>>> Reader 302: val value: 266
+>>> Reader 298: val value: 266
+Reader 291 is reading | readers in total: 6 | writers in total: 0 | readers in queue: 4 | writer in queue: 31
+Reader 303 is reading | readers in total: 7 | writers in total: 0 | readers in queue: 3 | writer in queue: 31
+Reader 304 is reading | readers in total: 8 | writers in total: 0 | readers in queue: 9 | writer in queue: 37
+Reader 302 is reading | readers in total: 9 | writers in total: 0 | readers in queue: 8 | writer in queue: 37
+>>> Reader 302: val value: 266
+Reader 305 is reading | readers in total: 9 | writers in total: 0 | readers in queue: 8 | writer in queue: 38
+Reader 307 is reading | readers in total: 10 | writers in total: 0 | readers in queue: 7 | writer in queue: 38
+Reader 306 is reading | readers in total: 11 | writers in total: 0 | readers in queue: 6 | writer in queue: 38
+Reader 308 is reading | readers in total: 12 | writers in total: 0 | readers in queue: 6 | writer in queue: 38
+Reader 309 is reading | readers in total: 13 | writers in total: 0 | readers in queue: 5 | writer in queue: 38
+Reader 312 is reading | readers in total: 14 | writers in total: 0 | readers in queue: 4 | writer in queue: 38
+Reader 311 is reading | readers in total: 15 | writers in total: 0 | readers in queue: 3 | writer in queue: 38
+>>> Reader 297: val value: 266
+Reader 310 is reading | readers in total: 15 | writers in total: 0 | readers in queue: 3 | writer in queue: 38
+>>> Reader 300: val value: 266
+>>> Reader 295: val value: 266
+Reader 314 is reading | readers in total: 14 | writers in total: 0 | readers in queue: 3 | writer in queue: 39
+>>> Reader 314: val value: 266
+>>> Reader 299: val value: 266
+>>> Reader 291: val value: 266
+Reader 313 is reading | readers in total: 12 | writers in total: 0 | readers in queue: 3 | writer in queue: 41
+Reader 315 is reading | readers in total: 13 | writers in total: 0 | readers in queue: 3 | writer in queue: 44
+>>> Reader 305: val value: 266
+Reader 316 is reading | readers in total: 13 | writers in total: 0 | readers in queue: 2 | writer in queue: 46
+Reader 317 is reading | readers in total: 14 | writers in total: 0 | readers in queue: 1 | writer in queue: 51
+>>> Reader 317: val value: 266
+>>> Reader 313: val value: 266
+>>> Reader 304: val value: 266
+Reader 318 is reading | readers in total: 12 | writers in total: 0 | readers in queue: 0 | writer in queue: 51
+>>> Reader 307: val value: 266
+>>> Reader 318: val value: 266
+>>> Reader 308: val value: 266
+>>> Reader 309: val value: 266
+>>> Reader 312: val value: 266
+>>> Reader 306: val value: 266
+>>> Reader 310: val value: 266
+>>> Reader 296: val value: 266
+>>> Reader 311: val value: 266
+>>> Reader 315: val value: 266
+>>> Reader 303: val value: 266
+>>> Reader 316: val value: 266
+Writer 332 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 65
+>>> Writer 332: val incremented from 266 to 267
+Writer 334 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 65
+>>> Writer 334: val incremented from 267 to 268
+Writer 272 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 64
+>>> Writer 272: val incremented from 268 to 269
+Writer 334 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 1 | writer in queue: 64
+Writer 273 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 1 | writer in queue: 64
+>>> Writer 273: val incremented from 269 to 270
+>>> Writer 334: val incremented from 270 to 271
+Reader 321 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 1 | writer in queue: 64
+>>> Reader 321: val value: 271
+Writer 342 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 1 | writer in queue: 66
+>>> Writer 342: val incremented from 271 to 272
+Writer 339 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 1 | writer in queue: 66
+Writer 264 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 1 | writer in queue: 65
+>>> Writer 339: val incremented from 272 to 273
+>>> Writer 264: val incremented from 273 to 274
+Writer 340 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 2 | writer in queue: 65
+>>> Writer 340: val incremented from 274 to 275
+Reader 320 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 1 | writer in queue: 65
+>>> Reader 320: val value: 275
+Writer 271 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 1 | writer in queue: 64
+>>> Writer 271: val incremented from 275 to 276
+Writer 265 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 1 | writer in queue: 63
+Writer 345 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 1 | writer in queue: 64
+>>> Writer 265: val incremented from 276 to 277
+Reader 323 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 1 | writer in queue: 64
+>>> Reader 323: val value: 277
+Writer 346 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 1 | writer in queue: 64
+>>> Writer 346: val incremented from 277 to 278
+>>> Writer 345: val incremented from 278 to 279
+Reader 324 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 1 | writer in queue: 64
+Writer 261 is writing | readers in total: 1 | writers in total: 1 | readers in queue: 1 | writer in queue: 63
+>>> Writer 261: val incremented from 279 to 280
+>>> Reader 324: val value: 280
+Writer 336 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 1 | writer in queue: 64
+Reader 322 is reading | readers in total: 1 | writers in total: 1 | readers in queue: 0 | writer in queue: 64
+Writer 266 is writing | readers in total: 1 | writers in total: 1 | readers in queue: 0 | writer in queue: 63
+>>> Writer 336: val incremented from 280 to 281
+>>> Reader 322: val value: 281
+>>> Writer 266: val incremented from 281 to 282
+Writer 348 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 4 | writer in queue: 63
+>>> Writer 348: val incremented from 282 to 283
+Writer 275 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 5 | writer in queue: 62
+>>> Writer 275: val incremented from 283 to 284
+Reader 328 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 4 | writer in queue: 62
+Reader 328 is reading | readers in total: 2 | writers in total: 0 | readers in queue: 3 | writer in queue: 63
+>>> Reader 328: val value: 284
+Writer 276 is writing | readers in total: 1 | writers in total: 1 | readers in queue: 3 | writer in queue: 62
+>>> Reader 328: val value: 284
+Reader 329 is reading | readers in total: 1 | writers in total: 1 | readers in queue: 2 | writer in queue: 62
+Writer 269 is writing | readers in total: 1 | writers in total: 1 | readers in queue: 2 | writer in queue: 61
+>>> Writer 269: val incremented from 284 to 285
+>>> Writer 276: val incremented from 285 to 286
+Reader 319 is reading | readers in total: 2 | writers in total: 0 | readers in queue: 1 | writer in queue: 61
+>>> Reader 319: val value: 286
+>>> Reader 329: val value: 284
+Writer 262 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 3 | writer in queue: 61
+Reader 326 is reading | readers in total: 1 | writers in total: 1 | readers in queue: 2 | writer in queue: 61
+>>> Reader 326: val value: 286
+Reader 330 is reading | readers in total: 1 | writers in total: 1 | readers in queue: 2 | writer in queue: 61
+>>> Writer 262: val incremented from 286 to 287
+>>> Reader 330: val value: 287
+Reader 331 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 2 | writer in queue: 61
+Reader 335 is reading | readers in total: 2 | writers in total: 0 | readers in queue: 4 | writer in queue: 66
+>>> Reader 331: val value: 287
+Reader 325 is reading | readers in total: 3 | writers in total: 0 | readers in queue: 3 | writer in queue: 66
+>>> Reader 335: val value: 287
+>>> Reader 325: val value: 287
+Writer 274 is writing | readers in total: 1 | writers in total: 1 | readers in queue: 5 | writer in queue: 66
+Reader 336 is reading | readers in total: 2 | writers in total: 0 | readers in queue: 4 | writer in queue: 69
+Writer 277 is writing | readers in total: 2 | writers in total: 1 | readers in queue: 4 | writer in queue: 68
+>>> Writer 274: val incremented from 287 to 288
+>>> Writer 277: val incremented from 288 to 289
+>>> Reader 336: val value: 289
+Reader 332 is reading | readers in total: 2 | writers in total: 0 | readers in queue: 3 | writer in queue: 68
+Reader 334 is reading | readers in total: 2 | writers in total: 0 | readers in queue: 5 | writer in queue: 70
+Reader 333 is reading | readers in total: 3 | writers in total: 0 | readers in queue: 4 | writer in queue: 70
+Reader 337 is reading | readers in total: 4 | writers in total: 0 | readers in queue: 3 | writer in queue: 70
+>>> Reader 332: val value: 289
+>>> Reader 334: val value: 289
+Reader 340 is reading | readers in total: 4 | writers in total: 0 | readers in queue: 4 | writer in queue: 70
+>>> Reader 340: val value: 289
+Reader 341 is reading | readers in total: 3 | writers in total: 0 | readers in queue: 4 | writer in queue: 73
+Reader 340 is reading | readers in total: 4 | writers in total: 0 | readers in queue: 3 | writer in queue: 73
+Reader 342 is reading | readers in total: 5 | writers in total: 0 | readers in queue: 2 | writer in queue: 73
+Reader 338 is reading | readers in total: 6 | writers in total: 0 | readers in queue: 1 | writer in queue: 73
+>>> Reader 337: val value: 289
+Reader 343 is reading | readers in total: 6 | writers in total: 0 | readers in queue: 2 | writer in queue: 73
+>>> Reader 341: val value: 289
+>>> Reader 333: val value: 289
+Reader 344 is reading | readers in total: 5 | writers in total: 0 | readers in queue: 1 | writer in queue: 74
+>>> Reader 343: val value: 289
+Reader 345 is reading | readers in total: 5 | writers in total: 0 | readers in queue: 1 | writer in queue: 74
+>>> Reader 345: val value: 289
+>>> Reader 342: val value: 289
+Reader 346 is reading | readers in total: 4 | writers in total: 0 | readers in queue: 0 | writer in queue: 75
+>>> Reader 346: val value: 289
+Reader 347 is reading | readers in total: 4 | writers in total: 0 | readers in queue: 3 | writer in queue: 80
+>>> Reader 340: val value: 289
+Reader 348 is reading | readers in total: 4 | writers in total: 0 | readers in queue: 2 | writer in queue: 80
+>>> Reader 338: val value: 289
+Reader 349 is reading | readers in total: 4 | writers in total: 0 | readers in queue: 1 | writer in queue: 80
+>>> Reader 347: val value: 289
+Reader 350 is reading | readers in total: 4 | writers in total: 0 | readers in queue: 1 | writer in queue: 80
+>>> Reader 350: val value: 289
+>>> Reader 344: val value: 289
+>>> Reader 348: val value: 289
+>>> Reader 349: val value: 289
+Reader 351 is reading | readers in total: 4 | writers in total: 0 | readers in queue: 0 | writer in queue: 80
+>>> Reader 351: val value: 289
+Writer 278 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 79
+>>> Writer 278: val incremented from 289 to 290
+Writer 279 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 78
+>>> Writer 279: val incremented from 290 to 291
+Writer 280 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 77
+>>> Writer 280: val incremented from 291 to 292
+Writer 285 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 76
+>>> Writer 285: val incremented from 292 to 293
+Writer 370 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 76
+>>> Writer 370: val incremented from 293 to 294
+Writer 281 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 75
+>>> Writer 281: val incremented from 294 to 295
+Writer 284 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 74
+Writer 286 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 73
+>>> Writer 284: val incremented from 295 to 296
+Writer 289 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 72
+>>> Writer 289: val incremented from 296 to 297
+>>> Writer 286: val incremented from 297 to 298
+Writer 290 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 71
+>>> Writer 290: val incremented from 298 to 299
+Writer 371 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 2 | writer in queue: 71
+Writer 291 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 2 | writer in queue: 70
+>>> Writer 291: val incremented from 299 to 300
+>>> Writer 371: val incremented from 300 to 301
+Writer 372 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 2 | writer in queue: 70
+>>> Writer 372: val incremented from 301 to 302
+Reader 353 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 1 | writer in queue: 70
+Writer 287 is writing | readers in total: 1 | writers in total: 1 | readers in queue: 2 | writer in queue: 69
+Reader 354 is reading | readers in total: 2 | writers in total: 1 | readers in queue: 2 | writer in queue: 70
+>>> Writer 287: val incremented from 302 to 303
+>>> Reader 354: val value: 303
+Reader 352 is reading | readers in total: 2 | writers in total: 0 | readers in queue: 1 | writer in queue: 70
+>>> Reader 352: val value: 303
+>>> Reader 353: val value: 303
+Reader 355 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 1 | writer in queue: 70
+>>> Reader 355: val value: 303
+Writer 289 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 1 | writer in queue: 70
+>>> Writer 289: val incremented from 303 to 304
+Writer 292 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 1 | writer in queue: 69
+>>> Writer 292: val incremented from 304 to 305
+Writer 375 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 2 | writer in queue: 69
+>>> Writer 375: val incremented from 305 to 306
+Reader 357 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 1 | writer in queue: 69
+Reader 356 is reading | readers in total: 2 | writers in total: 0 | readers in queue: 0 | writer in queue: 69
+>>> Reader 356: val value: 306
+>>> Reader 357: val value: 306
+Writer 293 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 68
+>>> Writer 293: val incremented from 306 to 307
+Writer 294 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 68
+>>> Writer 294: val incremented from 307 to 308
+Writer 295 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 67
+>>> Writer 295: val incremented from 308 to 309
+Writer 296 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 66
+>>> Writer 296: val incremented from 309 to 310
+Writer 297 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 65
+>>> Writer 297: val incremented from 310 to 311
+Writer 298 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 65
+>>> Writer 298: val incremented from 311 to 312
+Writer 299 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 64
+>>> Writer 299: val incremented from 312 to 313
+Writer 379 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 6 | writer in queue: 65
+>>> Writer 379: val incremented from 313 to 314
+Writer 381 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 7 | writer in queue: 65
+>>> Writer 381: val incremented from 314 to 315
+Reader 362 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 6 | writer in queue: 65
+Reader 363 is reading | readers in total: 2 | writers in total: 0 | readers in queue: 8 | writer in queue: 67
+Reader 399 is reading | readers in total: 3 | writers in total: 0 | readers in queue: 9 | writer in queue: 69
+Reader 364 is reading | readers in total: 4 | writers in total: 0 | readers in queue: 9 | writer in queue: 71
+Reader 363 is reading | readers in total: 5 | writers in total: 0 | readers in queue: 8 | writer in queue: 71
+>>> Reader 364: val value: 315
+>>> Reader 362: val value: 315
+Reader 401 is reading | readers in total: 4 | writers in total: 0 | readers in queue: 8 | writer in queue: 71
+Reader 402 is reading | readers in total: 5 | writers in total: 0 | readers in queue: 9 | writer in queue: 75
+>>> Reader 363: val value: 315
+Reader 367 is reading | readers in total: 5 | writers in total: 0 | readers in queue: 12 | writer in queue: 76
+Reader 370 is reading | readers in total: 6 | writers in total: 0 | readers in queue: 13 | writer in queue: 78
+Reader 368 is reading | readers in total: 7 | writers in total: 0 | readers in queue: 22 | writer in queue: 87
+Reader 390 is reading | readers in total: 8 | writers in total: 0 | readers in queue: 22 | writer in queue: 89
+Reader 372 is reading | readers in total: 9 | writers in total: 0 | readers in queue: 22 | writer in queue: 89
+Reader 403 is reading | readers in total: 10 | writers in total: 0 | readers in queue: 24 | writer in queue: 92
+Reader 377 is reading | readers in total: 11 | writers in total: 0 | readers in queue: 24 | writer in queue: 94
+Reader 379 is reading | readers in total: 12 | writers in total: 0 | readers in queue: 23 | writer in queue: 95
+Reader 378 is reading | readers in total: 13 | writers in total: 0 | readers in queue: 23 | writer in queue: 95
+>>> Reader 401: val value: 315
+Reader 388 is reading | readers in total: 14 | writers in total: 0 | readers in queue: 23 | writer in queue: 96
+Reader 382 is reading | readers in total: 15 | writers in total: 0 | readers in queue: 22 | writer in queue: 97
+>>> Reader 382: val value: 315
+Reader 369 is reading | readers in total: 15 | writers in total: 0 | readers in queue: 22 | writer in queue: 99
+Reader 373 is reading | readers in total: 16 | writers in total: 0 | readers in queue: 21 | writer in queue: 99
+Reader 375 is reading | readers in total: 17 | writers in total: 0 | readers in queue: 22 | writer in queue: 102
+Reader 404 is reading | readers in total: 18 | writers in total: 0 | readers in queue: 21 | writer in queue: 102
+Reader 381 is reading | readers in total: 19 | writers in total: 0 | readers in queue: 21 | writer in queue: 103
+Reader 387 is reading | readers in total: 20 | writers in total: 0 | readers in queue: 21 | writer in queue: 103
+Reader 394 is reading | readers in total: 20 | writers in total: 0 | readers in queue: 21 | writer in queue: 103
+Reader 389 is reading | readers in total: 21 | writers in total: 0 | readers in queue: 20 | writer in queue: 103
+>>> Reader 399: val value: 315
+Reader 395 is reading | readers in total: 21 | writers in total: 0 | readers in queue: 19 | writer in queue: 103
+Reader 384 is reading | readers in total: 22 | writers in total: 0 | readers in queue: 18 | writer in queue: 103
+Reader 383 is reading | readers in total: 23 | writers in total: 0 | readers in queue: 18 | writer in queue: 104
+>>> Reader 368: val value: 315
+>>> Reader 402: val value: 315
+>>> Reader 372: val value: 315
+>>> Reader 383: val value: 315
+Reader 374 is reading | readers in total: 22 | writers in total: 0 | readers in queue: 18 | writer in queue: 104
+>>> Reader 370: val value: 315
+>>> Reader 374: val value: 315
+>>> Reader 403: val value: 315
+>>> Reader 390: val value: 315
+>>> Reader 363: val value: 315
+>>> Reader 377: val value: 315
+Reader 398 is reading | readers in total: 16 | writers in total: 0 | readers in queue: 21 | writer in queue: 107
+>>> Reader 367: val value: 315
+>>> Reader 379: val value: 315
+>>> Reader 378: val value: 315
+Reader 391 is reading | readers in total: 17 | writers in total: 0 | readers in queue: 21 | writer in queue: 110
+>>> Reader 388: val value: 315
+Reader 409 is reading | readers in total: 17 | writers in total: 0 | readers in queue: 21 | writer in queue: 110
+>>> Reader 409: val value: 315
+Reader 386 is reading | readers in total: 18 | writers in total: 0 | readers in queue: 20 | writer in queue: 110
+>>> Reader 373: val value: 315
+>>> Reader 391: val value: 315
+>>> Reader 369: val value: 315
+Reader 393 is reading | readers in total: 16 | writers in total: 0 | readers in queue: 20 | writer in queue: 110
+>>> Reader 393: val value: 315
+>>> Reader 386: val value: 315
+>>> Reader 375: val value: 315
+Reader 366 is reading | readers in total: 16 | writers in total: 0 | readers in queue: 19 | writer in queue: 111
+>>> Reader 404: val value: 315
+>>> Reader 381: val value: 315
+>>> Reader 366: val value: 315
+>>> Reader 394: val value: 315
+Reader 381 is reading | readers in total: 14 | writers in total: 0 | readers in queue: 18 | writer in queue: 111
+>>> Reader 387: val value: 315
+>>> Reader 389: val value: 315
+>>> Reader 381: val value: 315
+>>> Reader 395: val value: 315
+Reader 419 is reading | readers in total: 11 | writers in total: 0 | readers in queue: 18 | writer in queue: 113
+>>> Reader 419: val value: 315
+Reader 419 is reading | readers in total: 12 | writers in total: 0 | readers in queue: 18 | writer in queue: 113
+>>> Reader 419: val value: 315
+Reader 410 is reading | readers in total: 13 | writers in total: 0 | readers in queue: 18 | writer in queue: 113
+>>> Reader 384: val value: 315
+>>> Reader 410: val value: 315
+>>> Reader 398: val value: 315
+Reader 392 is reading | readers in total: 11 | writers in total: 0 | readers in queue: 18 | writer in queue: 115
+Reader 361 is reading | readers in total: 12 | writers in total: 0 | readers in queue: 17 | writer in queue: 115
+>>> Reader 392: val value: 315
+Reader 386 is reading | readers in total: 13 | writers in total: 0 | readers in queue: 16 | writer in queue: 115
+Reader 411 is reading | readers in total: 14 | writers in total: 0 | readers in queue: 15 | writer in queue: 115
+>>> Reader 386: val value: 315
+>>> Reader 411: val value: 315
+Reader 420 is reading | readers in total: 15 | writers in total: 0 | readers in queue: 15 | writer in queue: 115
+>>> Reader 420: val value: 315
+>>> Reader 361: val value: 315
+Reader 407 is reading | readers in total: 14 | writers in total: 0 | readers in queue: 14 | writer in queue: 116
+>>> Reader 407: val value: 315
+Reader 406 is reading | readers in total: 14 | writers in total: 0 | readers in queue: 13 | writer in queue: 118
+Reader 405 is reading | readers in total: 15 | writers in total: 0 | readers in queue: 12 | writer in queue: 118
+>>> Reader 405: val value: 315
+Reader 408 is reading | readers in total: 14 | writers in total: 0 | readers in queue: 11 | writer in queue: 118
+>>> Reader 406: val value: 315
+Reader 358 is reading | readers in total: 14 | writers in total: 0 | readers in queue: 10 | writer in queue: 118
+>>> Reader 358: val value: 315
+>>> Reader 408: val value: 315
+Reader 380 is reading | readers in total: 12 | writers in total: 0 | readers in queue: 10 | writer in queue: 118
+Reader 359 is reading | readers in total: 13 | writers in total: 0 | readers in queue: 9 | writer in queue: 118
+>>> Reader 380: val value: 315
+>>> Reader 359: val value: 315
+Reader 412 is reading | readers in total: 12 | writers in total: 0 | readers in queue: 8 | writer in queue: 119
+>>> Reader 412: val value: 315
+Reader 396 is reading | readers in total: 11 | writers in total: 0 | readers in queue: 10 | writer in queue: 121
+Reader 366 is reading | readers in total: 12 | writers in total: 0 | readers in queue: 10 | writer in queue: 121
+>>> Reader 366: val value: 315
+Reader 427 is reading | readers in total: 12 | writers in total: 0 | readers in queue: 9 | writer in queue: 121
+Reader 428 is reading | readers in total: 13 | writers in total: 0 | readers in queue: 8 | writer in queue: 121
+>>> Reader 396: val value: 315
+Reader 397 is reading | readers in total: 13 | writers in total: 0 | readers in queue: 9 | writer in queue: 121
+Reader 429 is reading | readers in total: 14 | writers in total: 0 | readers in queue: 8 | writer in queue: 121
+Reader 414 is reading | readers in total: 13 | writers in total: 0 | readers in queue: 7 | writer in queue: 121
+>>> Reader 428: val value: 315
+Reader 430 is reading | readers in total: 8 | writers in total: 0 | readers in queue: 7 | writer in queue: 125
+Reader 400 is reading | readers in total: 8 | writers in total: 0 | readers in queue: 6 | writer in queue: 125
+Reader 371 is reading | readers in total: 9 | writers in total: 0 | readers in queue: 5 | writer in queue: 125
+Reader 413 is reading | readers in total: 9 | writers in total: 0 | readers in queue: 5 | writer in queue: 126
+Reader 421 is reading | readers in total: 9 | writers in total: 0 | readers in queue: 4 | writer in queue: 127
+>>> Reader 427: val value: 315
+Reader 424 is reading | readers in total: 9 | writers in total: 0 | readers in queue: 6 | writer in queue: 128
+>>> Reader 424: val value: 315
+Reader 415 is reading | readers in total: 9 | writers in total: 0 | readers in queue: 9 | writer in queue: 134
+Reader 432 is reading | readers in total: 10 | writers in total: 0 | readers in queue: 8 | writer in queue: 134
+Reader 416 is reading | readers in total: 11 | writers in total: 0 | readers in queue: 8 | writer in queue: 137
+Reader 423 is reading | readers in total: 12 | writers in total: 0 | readers in queue: 7 | writer in queue: 137
+Reader 433 is reading | readers in total: 13 | writers in total: 0 | readers in queue: 6 | writer in queue: 137
+Reader 431 is reading | readers in total: 14 | writers in total: 0 | readers in queue: 5 | writer in queue: 137
+>>> Reader 397: val value: 315
+Reader 423 is reading | readers in total: 14 | writers in total: 0 | readers in queue: 5 | writer in queue: 137
+>>> Reader 423: val value: 315
+>>> Reader 414: val value: 315
+Reader 427 is reading | readers in total: 13 | writers in total: 0 | readers in queue: 4 | writer in queue: 137
+>>> Reader 427: val value: 315
+>>> Reader 415: val value: 315
+>>> Reader 430: val value: 315
+Reader 425 is reading | readers in total: 11 | writers in total: 0 | readers in queue: 3 | writer in queue: 138
+>>> Reader 425: val value: 315
+Reader 417 is reading | readers in total: 11 | writers in total: 0 | readers in queue: 2 | writer in queue: 138
+>>> Reader 417: val value: 315
+Reader 435 is reading | readers in total: 11 | writers in total: 0 | readers in queue: 2 | writer in queue: 138
+>>> Reader 400: val value: 315
+Reader 434 is reading | readers in total: 11 | writers in total: 0 | readers in queue: 1 | writer in queue: 138
+>>> Reader 434: val value: 315
+>>> Reader 435: val value: 315
+Reader 436 is reading | readers in total: 10 | writers in total: 0 | readers in queue: 0 | writer in queue: 138
+>>> Reader 436: val value: 315
+>>> Reader 413: val value: 315
+Reader 437 is reading | readers in total: 9 | writers in total: 0 | readers in queue: 1 | writer in queue: 141
+>>> Reader 437: val value: 315
+>>> Reader 421: val value: 315
+Reader 438 is reading | readers in total: 8 | writers in total: 0 | readers in queue: 0 | writer in queue: 141
+>>> Reader 416: val value: 315
+>>> Reader 438: val value: 315
+>>> Reader 423: val value: 315
+>>> Reader 429: val value: 315
+>>> Reader 433: val value: 315
+>>> Reader 432: val value: 315
+Reader 439 is reading | readers in total: 3 | writers in total: 0 | readers in queue: 0 | writer in queue: 142
+>>> Reader 431: val value: 315
+>>> Reader 439: val value: 315
+>>> Reader 371: val value: 315
+Writer 300 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 142
+>>> Writer 300: val incremented from 315 to 316
+Writer 301 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 1 | writer in queue: 141
+>>> Writer 301: val incremented from 316 to 317
+Writer 462 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 4 | writer in queue: 141
+>>> Writer 462: val incremented from 317 to 318
+Reader 445 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 3 | writer in queue: 141
+Reader 446 is reading | readers in total: 2 | writers in total: 0 | readers in queue: 5 | writer in queue: 145
+Reader 447 is reading | readers in total: 3 | writers in total: 0 | readers in queue: 4 | writer in queue: 147
+Reader 441 is reading | readers in total: 4 | writers in total: 0 | readers in queue: 5 | writer in queue: 149
+Reader 443 is reading | readers in total: 5 | writers in total: 0 | readers in queue: 6 | writer in queue: 150
+>>> Reader 445: val value: 318
+Reader 444 is reading | readers in total: 5 | writers in total: 0 | readers in queue: 5 | writer in queue: 150
+Reader 449 is reading | readers in total: 6 | writers in total: 0 | readers in queue: 4 | writer in queue: 151
+>>> Reader 449: val value: 318
+>>> Reader 446: val value: 318
+Reader 440 is reading | readers in total: 5 | writers in total: 0 | readers in queue: 4 | writer in queue: 152
+Reader 448 is reading | readers in total: 6 | writers in total: 0 | readers in queue: 3 | writer in queue: 152
+Reader 450 is reading | readers in total: 7 | writers in total: 0 | readers in queue: 2 | writer in queue: 153
+>>> Reader 447: val value: 318
+Reader 442 is reading | readers in total: 7 | writers in total: 0 | readers in queue: 1 | writer in queue: 153
+>>> Reader 440: val value: 318
+Reader 451 is reading | readers in total: 7 | writers in total: 0 | readers in queue: 1 | writer in queue: 154
+>>> Reader 451: val value: 318
+>>> Reader 443: val value: 318
+Reader 452 is reading | readers in total: 6 | writers in total: 0 | readers in queue: 1 | writer in queue: 155
+>>> Reader 444: val value: 318
+Reader 453 is reading | readers in total: 6 | writers in total: 0 | readers in queue: 2 | writer in queue: 156
+>>> Reader 441: val value: 318
+Reader 454 is reading | readers in total: 6 | writers in total: 0 | readers in queue: 1 | writer in queue: 157
+Reader 455 is reading | readers in total: 7 | writers in total: 0 | readers in queue: 1 | writer in queue: 158
+>>> Reader 455: val value: 318
+>>> Reader 450: val value: 318
+>>> Reader 453: val value: 318
+Reader 456 is reading | readers in total: 5 | writers in total: 0 | readers in queue: 1 | writer in queue: 159
+>>> Reader 442: val value: 318
+>>> Reader 456: val value: 318
+>>> Reader 452: val value: 318
+Reader 457 is reading | readers in total: 3 | writers in total: 0 | readers in queue: 0 | writer in queue: 159
+>>> Reader 457: val value: 318
+>>> Reader 448: val value: 318
+>>> Reader 454: val value: 318
+Writer 302 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 2 | writer in queue: 159
+>>> Writer 302: val incremented from 318 to 319
+Reader 458 is reading | readers in total: 1 | writers in total: 1 | readers in queue: 1 | writer in queue: 159
+Reader 459 is reading | readers in total: 2 | writers in total: 0 | readers in queue: 1 | writer in queue: 159
+>>> Reader 459: val value: 319
+>>> Reader 458: val value: 319
+Reader 460 is reading | readers in total: 2 | writers in total: 0 | readers in queue: 1 | writer in queue: 160
+>>> Reader 460: val value: 319
+Reader 461 is reading | readers in total: 2 | writers in total: 0 | readers in queue: 1 | writer in queue: 162
+>>> Reader 461: val value: 319
+Reader 463 is reading | readers in total: 2 | writers in total: 0 | readers in queue: 1 | writer in queue: 162
+>>> Reader 463: val value: 319
+Writer 303 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 2 | writer in queue: 162
+>>> Writer 303: val incremented from 319 to 320
+Writer 487 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 2 | writer in queue: 162
+>>> Writer 487: val incremented from 320 to 321
+Reader 464 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 1 | writer in queue: 162
+>>> Reader 464: val value: 321
+Writer 483 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 2 | writer in queue: 163
+Writer 305 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 2 | writer in queue: 162
+>>> Writer 483: val incremented from 321 to 322
+Reader 462 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 1 | writer in queue: 162
+>>> Reader 462: val value: 322
+>>> Writer 305: val incremented from 322 to 323
+Writer 484 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 1 | writer in queue: 162
+>>> Writer 484: val incremented from 323 to 324
+Reader 467 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 1 | writer in queue: 162
+>>> Reader 467: val value: 324
+Reader 468 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 2 | writer in queue: 163
+>>> Reader 468: val value: 324
+Reader 469 is reading | readers in total: 2 | writers in total: 0 | readers in queue: 1 | writer in queue: 163
+Writer 308 is writing | readers in total: 2 | writers in total: 1 | readers in queue: 1 | writer in queue: 163
+Reader 465 is reading | readers in total: 3 | writers in total: 1 | readers in queue: 1 | writer in queue: 163
+>>> Writer 308: val incremented from 324 to 325
+>>> Reader 469: val value: 325
+>>> Reader 465: val value: 325
+Writer 309 is writing | readers in total: 2 | writers in total: 1 | readers in queue: 1 | writer in queue: 162
+>>> Writer 309: val incremented from 325 to 326
+Reader 466 is reading | readers in total: 3 | writers in total: 0 | readers in queue: 1 | writer in queue: 162
+>>> Reader 466: val value: 326
+Reader 470 is reading | readers in total: 3 | writers in total: 0 | readers in queue: 0 | writer in queue: 162
+>>> Reader 470: val value: 326
+Reader 472 is reading | readers in total: 3 | writers in total: 0 | readers in queue: 1 | writer in queue: 163
+>>> Reader 472: val value: 326
+Reader 471 is reading | readers in total: 3 | writers in total: 0 | readers in queue: 1 | writer in queue: 164
+>>> Reader 471: val value: 326
+Reader 473 is reading | readers in total: 2 | writers in total: 0 | readers in queue: 0 | writer in queue: 166
+>>> Reader 473: val value: 326
+Writer 310 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 1 | writer in queue: 165
+>>> Writer 310: val incremented from 326 to 327
+Writer 494 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 2 | writer in queue: 165
+>>> Writer 494: val incremented from 327 to 328
+Writer 496 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 2 | writer in queue: 165
+>>> Writer 496: val incremented from 328 to 329
+Writer 493 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 2 | writer in queue: 165
+>>> Writer 493: val incremented from 329 to 330
+Reader 474 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 1 | writer in queue: 165
+Reader 475 is reading | readers in total: 2 | writers in total: 0 | readers in queue: 1 | writer in queue: 165
+>>> Reader 474: val value: 330
+Reader 478 is reading | readers in total: 2 | writers in total: 0 | readers in queue: 1 | writer in queue: 166
+>>> Reader 475: val value: 330
+Reader 479 is reading | readers in total: 2 | writers in total: 0 | readers in queue: 3 | writer in queue: 168
+Reader 476 is reading | readers in total: 3 | writers in total: 0 | readers in queue: 2 | writer in queue: 168
+>>> Reader 478: val value: 330
+Reader 477 is reading | readers in total: 3 | writers in total: 0 | readers in queue: 1 | writer in queue: 169
+Reader 480 is reading | readers in total: 4 | writers in total: 0 | readers in queue: 1 | writer in queue: 170
+>>> Reader 476: val value: 330
+>>> Reader 480: val value: 330
+Reader 481 is reading | readers in total: 3 | writers in total: 0 | readers in queue: 0 | writer in queue: 170
+>>> Reader 477: val value: 330
+>>> Reader 481: val value: 330
+>>> Reader 479: val value: 330
+Writer 304 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 3 | writer in queue: 169
+>>> Writer 304: val incremented from 330 to 331
+Reader 491 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 3 | writer in queue: 169
+Reader 482 is reading | readers in total: 2 | writers in total: 0 | readers in queue: 6 | writer in queue: 169
+Reader 490 is reading | readers in total: 3 | writers in total: 0 | readers in queue: 6 | writer in queue: 169
+Reader 483 is reading | readers in total: 4 | writers in total: 0 | readers in queue: 6 | writer in queue: 169
+Reader 486 is reading | readers in total: 5 | writers in total: 0 | readers in queue: 9 | writer in queue: 169
+Reader 494 is reading | readers in total: 6 | writers in total: 0 | readers in queue: 11 | writer in queue: 169
+Reader 495 is reading | readers in total: 7 | writers in total: 0 | readers in queue: 12 | writer in queue: 169
+Reader 488 is reading | readers in total: 8 | writers in total: 0 | readers in queue: 11 | writer in queue: 169
+Reader 496 is reading | readers in total: 9 | writers in total: 0 | readers in queue: 10 | writer in queue: 169
+>>> Reader 491: val value: 331
+Reader 489 is reading | readers in total: 9 | writers in total: 0 | readers in queue: 9 | writer in queue: 169
+Reader 485 is reading | readers in total: 10 | writers in total: 0 | readers in queue: 8 | writer in queue: 169
+>>> Reader 485: val value: 331
+>>> Reader 490: val value: 331
+Reader 497 is reading | readers in total: 9 | writers in total: 0 | readers in queue: 7 | writer in queue: 169
+>>> Reader 497: val value: 331
+>>> Reader 482: val value: 331
+Reader 493 is reading | readers in total: 8 | writers in total: 0 | readers in queue: 6 | writer in queue: 169
+>>> Reader 493: val value: 331
+>>> Reader 486: val value: 331
+Reader 487 is reading | readers in total: 8 | writers in total: 0 | readers in queue: 5 | writer in queue: 169
+>>> Reader 483: val value: 331
+>>> Reader 494: val value: 331
+>>> Reader 495: val value: 331
+>>> Reader 487: val value: 331
+Reader 500 is reading | readers in total: 4 | writers in total: 0 | readers in queue: 4 | writer in queue: 169
+>>> Reader 500: val value: 331
+Reader 499 is reading | readers in total: 4 | writers in total: 0 | readers in queue: 3 | writer in queue: 169
+>>> Reader 499: val value: 331
+Reader 498 is reading | readers in total: 4 | writers in total: 0 | readers in queue: 2 | writer in queue: 169
+>>> Reader 498: val value: 331
+>>> Reader 496: val value: 331
+Reader 492 is reading | readers in total: 4 | writers in total: 0 | readers in queue: 1 | writer in queue: 169
+>>> Reader 492: val value: 331
+>>> Reader 489: val value: 331
+>>> Reader 488: val value: 331
+Reader 484 is reading | readers in total: 1 | writers in total: 0 | readers in queue: 0 | writer in queue: 169
+>>> Reader 484: val value: 331
+Writer 306 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 168
+>>> Writer 306: val incremented from 331 to 332
+Writer 307 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 167
+>>> Writer 307: val incremented from 332 to 333
+Writer 311 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 166
+>>> Writer 311: val incremented from 333 to 334
+Writer 312 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 165
+>>> Writer 312: val incremented from 334 to 335
+Writer 313 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 164
+>>> Writer 313: val incremented from 335 to 336
+Writer 314 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 163
+>>> Writer 314: val incremented from 336 to 337
+Writer 315 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 162
+>>> Writer 315: val incremented from 337 to 338
+Writer 316 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 161
+>>> Writer 316: val incremented from 338 to 339
+Writer 317 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 160
+>>> Writer 317: val incremented from 339 to 340
+Writer 318 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 159
+>>> Writer 318: val incremented from 340 to 341
+Writer 320 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 158
+>>> Writer 320: val incremented from 341 to 342
+Writer 322 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 157
+>>> Writer 322: val incremented from 342 to 343
+Writer 319 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 156
+>>> Writer 319: val incremented from 343 to 344
+Writer 321 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 155
+>>> Writer 321: val incremented from 344 to 345
+Writer 324 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 154
+>>> Writer 324: val incremented from 345 to 346
+Writer 325 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 153
+>>> Writer 325: val incremented from 346 to 347
+Writer 323 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 152
+>>> Writer 323: val incremented from 347 to 348
+Writer 329 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 151
+>>> Writer 329: val incremented from 348 to 349
+Writer 328 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 150
+>>> Writer 328: val incremented from 349 to 350
+Writer 330 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 149
+>>> Writer 330: val incremented from 350 to 351
+Writer 329 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 148
+>>> Writer 329: val incremented from 351 to 352
+Writer 326 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 147
+>>> Writer 326: val incremented from 352 to 353
+Writer 341 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 146
+>>> Writer 341: val incremented from 353 to 354
+Writer 337 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 145
+>>> Writer 337: val incremented from 354 to 355
+Writer 338 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 144
+>>> Writer 338: val incremented from 355 to 356
+Writer 331 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 143
+>>> Writer 331: val incremented from 356 to 357
+Writer 343 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 142
+>>> Writer 343: val incremented from 357 to 358
+Writer 344 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 141
+>>> Writer 344: val incremented from 358 to 359
+Writer 347 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 140
+>>> Writer 347: val incremented from 359 to 360
+Writer 356 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 139
+>>> Writer 356: val incremented from 360 to 361
+Writer 350 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 138
+>>> Writer 350: val incremented from 361 to 362
+Writer 354 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 137
+>>> Writer 354: val incremented from 362 to 363
+Writer 352 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 136
+>>> Writer 352: val incremented from 363 to 364
+Writer 353 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 135
+>>> Writer 353: val incremented from 364 to 365
+Writer 351 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 134
+>>> Writer 351: val incremented from 365 to 366
+Writer 358 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 133
+>>> Writer 358: val incremented from 366 to 367
+Writer 355 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 132
+>>> Writer 355: val incremented from 367 to 368
+Writer 359 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 131
+>>> Writer 359: val incremented from 368 to 369
+Writer 360 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 130
+>>> Writer 360: val incremented from 369 to 370
+Writer 349 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 129
+>>> Writer 349: val incremented from 370 to 371
+Writer 357 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 128
+>>> Writer 357: val incremented from 371 to 372
+Writer 362 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 127
+>>> Writer 362: val incremented from 372 to 373
+Writer 335 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 126
+>>> Writer 335: val incremented from 373 to 374
+Writer 363 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 125
+>>> Writer 363: val incremented from 374 to 375
+Writer 365 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 124
+>>> Writer 365: val incremented from 375 to 376
+Writer 361 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 123
+>>> Writer 361: val incremented from 376 to 377
+Writer 367 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 122
+>>> Writer 367: val incremented from 377 to 378
+Writer 366 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 121
+>>> Writer 366: val incremented from 378 to 379
+Writer 368 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 120
+>>> Writer 368: val incremented from 379 to 380
+Writer 365 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 119
+>>> Writer 365: val incremented from 380 to 381
+Writer 373 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 118
+>>> Writer 373: val incremented from 381 to 382
+Writer 374 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 117
+>>> Writer 374: val incremented from 382 to 383
+Writer 376 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 116
+>>> Writer 376: val incremented from 383 to 384
+Writer 411 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 115
+>>> Writer 411: val incremented from 384 to 385
+Writer 413 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 114
+>>> Writer 413: val incremented from 385 to 386
+Writer 415 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 113
+>>> Writer 415: val incremented from 386 to 387
+Writer 382 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 112
+>>> Writer 382: val incremented from 387 to 388
+Writer 369 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 111
+>>> Writer 369: val incremented from 388 to 389
+Writer 384 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 110
+>>> Writer 384: val incremented from 389 to 390
+Writer 386 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 109
+>>> Writer 386: val incremented from 390 to 391
+Writer 387 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 108
+>>> Writer 387: val incremented from 391 to 392
+Writer 383 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 107
+>>> Writer 383: val incremented from 392 to 393
+Writer 390 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 106
+>>> Writer 390: val incremented from 393 to 394
+Writer 416 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 105
+>>> Writer 416: val incremented from 394 to 395
+Writer 388 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 104
+>>> Writer 388: val incremented from 395 to 396
+Writer 394 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 103
+>>> Writer 394: val incremented from 396 to 397
+Writer 396 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 102
+>>> Writer 396: val incremented from 397 to 398
+Writer 397 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 101
+>>> Writer 397: val incremented from 398 to 399
+Writer 392 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 100
+>>> Writer 392: val incremented from 399 to 400
+Writer 389 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 99
+>>> Writer 389: val incremented from 400 to 401
+Writer 399 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 98
+>>> Writer 399: val incremented from 401 to 402
+Writer 392 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 97
+>>> Writer 392: val incremented from 402 to 403
+Writer 398 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 96
+>>> Writer 398: val incremented from 403 to 404
+Writer 400 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 95
+>>> Writer 400: val incremented from 404 to 405
+Writer 403 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 94
+>>> Writer 403: val incremented from 405 to 406
+Writer 417 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 93
+>>> Writer 417: val incremented from 406 to 407
+Writer 406 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 92
+>>> Writer 406: val incremented from 407 to 408
+Writer 407 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 91
+>>> Writer 407: val incremented from 408 to 409
+Writer 402 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 90
+>>> Writer 402: val incremented from 409 to 410
+Writer 409 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 89
+>>> Writer 409: val incremented from 410 to 411
+Writer 404 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 88
+>>> Writer 404: val incremented from 411 to 412
+Writer 405 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 87
+>>> Writer 405: val incremented from 412 to 413
+Writer 418 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 86
+>>> Writer 418: val incremented from 413 to 414
+Writer 377 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 85
+>>> Writer 377: val incremented from 414 to 415
+Writer 378 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 84
+>>> Writer 378: val incremented from 415 to 416
+Writer 412 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 83
+>>> Writer 412: val incremented from 416 to 417
+Writer 380 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 82
+>>> Writer 380: val incremented from 417 to 418
+Writer 393 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 81
+>>> Writer 393: val incremented from 418 to 419
+Writer 395 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 80
+>>> Writer 395: val incremented from 419 to 420
+Writer 401 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 79
+>>> Writer 401: val incremented from 420 to 421
+Writer 420 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 78
+>>> Writer 420: val incremented from 421 to 422
+Writer 410 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 77
+>>> Writer 410: val incremented from 422 to 423
+Writer 408 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 76
+>>> Writer 408: val incremented from 423 to 424
+Writer 423 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 75
+>>> Writer 423: val incremented from 424 to 425
+Writer 430 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 74
+>>> Writer 430: val incremented from 425 to 426
+Writer 431 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 73
+>>> Writer 431: val incremented from 426 to 427
+Writer 415 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 72
+>>> Writer 415: val incremented from 427 to 428
+Writer 385 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 71
+>>> Writer 385: val incremented from 428 to 429
+Writer 432 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 70
+>>> Writer 432: val incremented from 429 to 430
+Writer 419 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 69
+>>> Writer 419: val incremented from 430 to 431
+Writer 434 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 68
+>>> Writer 434: val incremented from 431 to 432
+Writer 436 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 67
+>>> Writer 436: val incremented from 432 to 433
+Writer 424 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 66
+>>> Writer 424: val incremented from 433 to 434
+Writer 437 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 65
+>>> Writer 437: val incremented from 434 to 435
+Writer 425 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 64
+>>> Writer 425: val incremented from 435 to 436
+Writer 427 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 63
+>>> Writer 427: val incremented from 436 to 437
+Writer 428 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 62
+>>> Writer 428: val incremented from 437 to 438
+Writer 421 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 61
+>>> Writer 421: val incremented from 438 to 439
+Writer 422 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 60
+>>> Writer 422: val incremented from 439 to 440
+Writer 444 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 59
+>>> Writer 444: val incremented from 440 to 441
+Writer 445 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 58
+>>> Writer 445: val incremented from 441 to 442
+Writer 426 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 57
+>>> Writer 426: val incremented from 442 to 443
+Writer 435 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 56
+>>> Writer 435: val incremented from 443 to 444
+Writer 447 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 55
+>>> Writer 447: val incremented from 444 to 445
+Writer 448 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 54
+>>> Writer 448: val incremented from 445 to 446
+Writer 438 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 53
+>>> Writer 438: val incremented from 446 to 447
+Writer 449 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 52
+>>> Writer 449: val incremented from 447 to 448
+Writer 447 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 51
+>>> Writer 447: val incremented from 448 to 449
+Writer 440 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 50
+>>> Writer 440: val incremented from 449 to 450
+Writer 441 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 49
+>>> Writer 441: val incremented from 450 to 451
+Writer 439 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 48
+>>> Writer 439: val incremented from 451 to 452
+Writer 443 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 47
+>>> Writer 443: val incremented from 452 to 453
+Writer 450 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 46
+>>> Writer 450: val incremented from 453 to 454
+Writer 442 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 45
+>>> Writer 442: val incremented from 454 to 455
+Writer 433 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 44
+>>> Writer 433: val incremented from 455 to 456
+Writer 429 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 43
+>>> Writer 429: val incremented from 456 to 457
+Writer 452 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 42
+>>> Writer 452: val incremented from 457 to 458
+Writer 451 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 41
+>>> Writer 451: val incremented from 458 to 459
+Writer 455 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 40
+>>> Writer 455: val incremented from 459 to 460
+Writer 455 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 39
+>>> Writer 455: val incremented from 460 to 461
+Writer 456 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 38
+>>> Writer 456: val incremented from 461 to 462
+Writer 453 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 37
+>>> Writer 453: val incremented from 462 to 463
+Writer 462 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 36
+>>> Writer 462: val incremented from 463 to 464
+Writer 463 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 35
+>>> Writer 463: val incremented from 464 to 465
+Writer 458 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 34
+>>> Writer 458: val incremented from 465 to 466
+Writer 458 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 33
+>>> Writer 458: val incremented from 466 to 467
+Writer 459 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 32
+>>> Writer 459: val incremented from 467 to 468
+Writer 464 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 31
+>>> Writer 464: val incremented from 468 to 469
+Writer 466 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 30
+>>> Writer 466: val incremented from 469 to 470
+Writer 467 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 29
+>>> Writer 467: val incremented from 470 to 471
+Writer 460 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 28
+>>> Writer 460: val incremented from 471 to 472
+Writer 469 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 27
+>>> Writer 469: val incremented from 472 to 473
+Writer 468 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 26
+>>> Writer 468: val incremented from 473 to 474
+Writer 465 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 25
+>>> Writer 465: val incremented from 474 to 475
+Writer 471 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 24
+>>> Writer 471: val incremented from 475 to 476
+Writer 470 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 23
+>>> Writer 470: val incremented from 476 to 477
+Writer 473 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 22
+>>> Writer 473: val incremented from 477 to 478
+Writer 474 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 21
+>>> Writer 474: val incremented from 478 to 479
+Writer 475 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 20
+>>> Writer 475: val incremented from 479 to 480
+Writer 476 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 19
+>>> Writer 476: val incremented from 480 to 481
+Writer 472 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 18
+>>> Writer 472: val incremented from 481 to 482
+Writer 478 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 17
+>>> Writer 478: val incremented from 482 to 483
+Writer 479 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 16
+>>> Writer 479: val incremented from 483 to 484
+Writer 481 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 15
+>>> Writer 481: val incremented from 484 to 485
+Writer 480 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 14
+>>> Writer 480: val incremented from 485 to 486
+Writer 482 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 13
+>>> Writer 482: val incremented from 486 to 487
+Writer 477 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 12
+Writer 488 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 11
+>>> Writer 477: val incremented from 487 to 488
+>>> Writer 488: val incremented from 487 to 488
+Writer 489 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 10
+>>> Writer 489: val incremented from 489 to 490
+Writer 486 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 9
+>>> Writer 486: val incremented from 490 to 491
+Writer 490 is writing | readers in total: 0 | writers in total: 1 | readers in queue: 0 | writer in queue: 8
+>>> Writer 490: val incremented from 491 to 492
+Writer 491
