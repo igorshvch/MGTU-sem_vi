@@ -15,7 +15,7 @@
 //Shared resource
 volatile int val = 0;
 
-#define SLEEP_TIME 5
+#define SLEEP_TIME 3
 #define WRITING_THREADS 1000
 #define READING_THREADS 1000
 #define TRY_TO_ACCESS 1
@@ -43,7 +43,8 @@ void beginread(int i)
 	pthread_mutex_lock(&condlock);
 
 	// if there are active or waiting writers
-	if (wcnt == 1 || waitw > 0) {
+	//if (wcnt == 1 || waitw > 0) {
+	if (wcnt == 1) {
 		// incrementing waiting readers
 		waitr++;
 
