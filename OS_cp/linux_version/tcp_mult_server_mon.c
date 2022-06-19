@@ -1,3 +1,6 @@
+//https://www.geeksforgeeks.org/handling-multiple-clients-on-server-with-multithreading-using-socket-programming-in-c-cpp/
+//https://www.geeksforgeeks.org/reader-writer-problem-using-monitors-pthreads/
+//https://www.geeksforgeeks.org/reader-writers-solution-using-monitors/
 // C program for the Server Side
 
 // inet_addr
@@ -16,8 +19,8 @@
 volatile int val = 0;
 
 #define SLEEP_TIME 3
-#define WRITING_THREADS 1000
-#define READING_THREADS 1000
+#define WRITING_THREADS 100
+#define READING_THREADS 100
 #define TRY_TO_ACCESS 1
 
 // no. of readers
@@ -166,7 +169,7 @@ int main()
 	// Listen on the socket,
 	// with 40 max connection
 	// requests queued
-	if (listen(serverSocket, 500) == 0)
+	if (listen(serverSocket, (WRITING_THREADS+READING_THREADS)) == 0)
 		printf("Listening\n");
 	else
 		printf("Error\n");

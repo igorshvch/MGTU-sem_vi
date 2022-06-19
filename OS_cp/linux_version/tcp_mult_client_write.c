@@ -13,7 +13,7 @@
 #include <semaphore.h>
 
 #define SLEEP_TIME 0
-#define THREADS_NUM 500
+#define THREADS_NUM 100
 
 // Function to send data to
 // server socket.
